@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<!--HEAD-->
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Input Groups New</title>
+    <meta name="description" content="Description goes here...">
+      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> 
+      <link rel="stylesheet" href="MyVisible.css"> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">  
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
+    <!--  google fonts go here...  --> 
+	<style>
+		.input-group   { margin: 1rem; }
+	</style>
+  </head>
+  <!--END of HEAD-->
+  <body>
+       <div class="container">
+		   <div class="row">
+			   <div class="col-sm-8">
+				   <h2>Input Groups</h2> 
+				   <p>The <code>.input-group</code> class is a container to enhance an input by adding an icon, text or a button 
+				       in front or behind it as a  <em>"help text"</em>.</p>
+					<p>The <code>.input-group-addon</code> class attaches an icon or help text next to the input field.</p>
+				      <form action="#" >
+					       <div class="input-group">
+							   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+							   <input class="form-control" id="user" type="text" name="user" placeholder="Enter username">
+						   </div>
+					        <div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+								<input class="form-control" id="pass" name="password" type="password" placeholder="Enter password">
+							</div>
+							<div class="input-group">
+								<span class="input-group-addon">Birthplace</span>
+								<input class="form-control" id="birth" name="birthplace" type="text" placeholder="Where were you born?">
+							</div>
+					  </form>
+				   <p>It can also be used on the right side of the input:</p>
+				    <div class="input-group">
+						<input class="form-control" id="phone" name="telephone" type="tel" placeholder="Enter your telephone number">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+					</div>
+				   <h2>Input Group Buttons</h2>
+				   <p>The <code>.input-group</code> class is a container to enhance an input by adding an icon, text or a button in
+        				   front or behind it as a <em>"help desk"</em>.</p>
+				   <p>The <code>.input-group-btn</code> class attaches a button next to an input field. This is often used as a search bar.</p>
+				    <form>
+					    <div class="input-group">
+							<input class="form-control" id="search" type="search" name="search" placeholder="Enter search query...">
+							<div class="input-group-btn">
+								<button class="btn btn-success"><i class="glyphicon glyphicon-search"></i></button>
+							</div>
+						</div>
+					
+					</form>
+			   </div>
+		   </div>
+	   </div>
+     
+ <!-- Put scripts befere the end of BODY -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+   <script src="inputGroupNew.js"></script>
+   <!--End of Body-->
+  </body>
+</html> 
