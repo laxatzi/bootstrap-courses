@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<!--HEAD-->
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap 3: Input States New</title>
+    <meta name="description" content="Description goes here...">
+      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> 
+      <link rel="stylesheet" href="MyVisible.css"> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">  
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
+    <!--  google fonts go here...  --> 
+      <link rel="stylesheet"  href="input.css">  
+  </head>
+  <!--END of HEAD-->
+  <body>
+       <div class="container">
+		   <div class="col-sm-8">
+		   <h2>Bootstrap Form Control States</h2>
+			   <form class="form-horizontal">
+				  <div class="form-group">
+					  <label for="focused" class="control-label col-sm-2">Focused:</label>
+					  <div class="col-sm-10">
+					      <input id="focused" class="form-control" type="text" name="focused" placeholder="Click to focus...">
+					  </div>
+				  </div>
+				  <div class="form-group">
+					  <label for="disabled" class="control-label col-sm-2">Disabled:</label>
+					  <div class="col-sm-10">
+						  <input id="disabled" class="form-control" type="text" name="disabled" placeholder="This input field is disabled" disabled="disabled">
+					  </div>
+				  </div>
+				  <fieldset disabled="disabled">
+					  <div class="form-group">
+						  <label for="text" class="control-label col-sm-2">Disabled input text and select list in a disabled fieldset! </label>
+						  <div class="col-sm-10">
+							  <input class="form-control" id="text" type="text" name="fieldset" placeholder="Disabled input">
+						  </div>
+					  </div>
+					  <div class="form-group">
+						  <label for="select" class="control-label col-sm-2"></label>
+						  <div class="col-sm-10">
+							  <select name="select" id="select" class="form-control">
+								  <option value="1">1</option>
+								  <option value="2">2</option>
+								  <option value="3">3</option>
+							  </select>
+						  </div>
+					  </div>
+				  </fieldset>
+				  <div class="form-group has-success has-feedback">
+					  <label for="success" class="control-label col-sm-2">Input success</label>
+					  <div class="col-sm-10">
+						  <input class="form-control" id="success" type="text" name="colors">
+						  <span><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+					  </div>
+				  </div>
+				  <div class="form-group has-warning has-feedback">
+					  <label for="warning" class="control-label col-sm-2">Input warning</label>
+					  <div class="col-sm-10">
+						    <input class="form-control" id="warning" type="text" name="colors" >
+							<span><i class="glyphicon glyphicon-warning-sign form-control-feedback"></i></span>
+					  </div>
+				  </div>
+				  <div class="form-group has-error has-feedback">
+					  <label for="error" class="control-label col-sm-2">Input Error</label>
+					  <div class="col-sm-10">
+						  <input class="form-control" id="error" type="text" name="colors">
+						  <span><i class="glyphicon glyphicon-remove form-control-feedback" ></i></span>
+					  </div>
+				  </div>
+			   </form>
+		   </div>
+	   </div>
+		
+ <!-- Put scripts befere the end of BODY -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+   <script src="inputStatesNew.js"></script>
+   <!--End of Body-->
+  </body>
+</html> 
