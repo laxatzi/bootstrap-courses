@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<!--HEAD-->
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap3 Forms New</title>
+    <meta name="description" content="Description goes here...">
+      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> 
+      <link rel="stylesheet" href="MyVisible.css"> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">  
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
+    <!--  google fonts go here...  --> 
+	<style>
+		.row  {
+			margin-top: 3rem;
+			margin-bottom: 3rem;
+		     }
+
+         button { margin: 1rem;	 }
+	</style>
+  </head>
+  <!--END of HEAD-->
+  <body>
+		<div class="container">
+		   <div class="row">
+			   <div class="col-sm-6">
+			    <h2>Vertical (default) form</h2>
+				   <form action="#" method="post">
+				       <div class="form-group">
+						   <label for="email">Email</label>
+						   <input id="email" class="form-control" type="text" name="clientData" placeholder	="Enter your email...">
+					   </div>
+				        <div class="form-group">
+							<label for="name">Name</label>
+							<input id="name" class="form-control" type="text" name="clientData" placeholder="Enter your name...">
+						</div>
+						<div class="form-group">
+							<label ><input type="checkbox" name="clientData"> Remember me.</label>
+						</div>
+						<div class="form-group">
+							<input type="button" class="btn btn-primary" name="clientData" value="Submit">
+						</div>
+				   </form>
+			   </div>
+		   </div>
+			<div class="row">
+				<div class="col-sm-6">
+				 <h2>Bootstrap Horizontal Form</h2>
+				 <p>Add class <code>.form-horizontal</code>  to the <code>form</code> element</p>
+				 <p>Add class <code>.control-label</code>  to all <code>label</code> elements</p>
+					<form action="#" method="get" class="form-horizontal">
+					    <div class="form-group">
+							<label class="control-label col-sm-1" for="emailHorizontal">Email</label>
+							<div class="col-sm-11">
+							   <input id="emailHorizontal" class="form-control" type="text" name="customeData" placeholder="Enter your email...">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-1" for="nameHorizontal">Name</label>
+							<div class="col-sm-11">
+							   <input id="nameHorizontal" class="form-control" type="text" name="customeData" placeholder="Enter your name...">
+							</div>
+						</div>
+						<div class="form-group">
+						   
+							<label ><input type="checkbox" name="customeData"> Remember me</label>
+						</div>
+						<div class="form-group">
+							<input class="btn btn-success" type="button" name="customeData" value="Subscribe">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	
+ <!-- Put scripts befere the end of BODY -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+   <script src="formNew.js"></script>
+   <!--End of Body-->
+  </body>
+</html> 
