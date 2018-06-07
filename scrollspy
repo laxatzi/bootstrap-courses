@@ -23,58 +23,58 @@
   <!--END of HEAD-->
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
      <nav class="navbar navbar-inverse navbar-fixed-top">
-		 <div class="container-fluid">
-			 <div class="navbar-header">
-			     <button class="navbar-toggle" data-target="#navigation" data-toggle="collapse">
-				    <span class="icon-bar"></span>
-				    <span class="icon-bar"></span>
-				    <span class="icon-bar"></span>
-				 </button>
-				 <a href="#" class="navbar-brand" >BrandName</a>
-			 </div>
-			 <div class="collapse navbar-collapse" id="navigation">
-			  <ul class="nav navbar-nav">
-				 <li><a href="#home" >Home</a></li>
-				 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >Portfolio <span class="caret"></span></a>
-				      <ul class="dropdown-menu">
-						  <li><a href="#apps" >Apps</a></li>
-						  <li><a href="#repos" >Repos</a></li>
-					  </ul>
-				 </li>
-				 <li><a href="#about" >About</a></li>
-				 <li><a href="#contact" >Contact</a></li>
-			   </ul>
-			   <ul class="nav navbar-nav navbar-right">
-				   <li><a href="#" >Log-in <span><i class="glyphicon glyphicon-log-in"></i></span></a></li>
-				   <li><a href="#" >Sign Up <span><i class="glyphicon glyphicon-user"></i></span></a></li>
-			   </ul>
-			 </div>
-		 </div>
-	 </nav>
-       <div class="container scrollable">
-	       <div class="col-sm-8">
-		    <div id="home">
-			   <h3>Home</h3>
-			   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus dui mi, et tempor odio lacinia eu. Sed iaculis massa nisi, et interdum est efficitur et. Nullam sed bibendum urna. Pellentesque porttitor erat non elit congue, sit amet aliquam ligula blandit. Suspendisse potenti. Fusce gravida rhoncus tortor, in porta tortor. </p>
-		    </div>
-		    <div id="apps">
-			   <h3>Applications</h3>
-			   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus dui mi, et tempor odio lacinia eu. Sed iaculis massa nisi, et interdum est efficitur et. Nullam sed bibendum urna. Pellentesque porttitor erat non elit congue, sit amet aliquam ligula blandit. Suspendisse potenti. Fusce gravida rhoncus tortor, in porta tortor. </p>
-		    </div>
-		    <div id="repos">
-			   <h3>Repositories</h3>
-			   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus dui mi, et tempor odio lacinia eu. Sed iaculis massa nisi, et interdum est efficitur et. Nullam sed bibendum urna. Pellentesque porttitor erat non elit congue, sit amet aliquam ligula blandit. Suspendisse potenti. Fusce gravida rhoncus tortor, in porta tortor. </p>
-		    </div>
-		    <div id="about">
-			   <h3>About</h3>
-			   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus dui mi, et tempor odio lacinia eu. Sed iaculis massa nisi, et interdum est efficitur et. Nullam sed bibendum urna. Pellentesque porttitor erat non elit congue, sit amet aliquam ligula blandit. Suspendisse potenti. Fusce gravida rhoncus tortor, in porta tortor. </p>
-		    </div>
-		    <div id="contact">
-			   <h3>Contact</h3>
-			   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus dui mi, et tempor odio lacinia eu. Sed iaculis massa nisi, et interdum est efficitur et. Nullam sed bibendum urna. Pellentesque porttitor erat non elit congue, sit amet aliquam ligula blandit. Suspendisse potenti. Fusce gravida rhoncus tortor, in porta tortor. </p>
-		    </div>
-		   </div>
+        <div class="container-fluid">
+	   <div class="navbar-header">
+	      <button class="navbar-toggle" data-target="#navigation" data-toggle="collapse">
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+	      </button>
+	      <a href="#" class="navbar-brand" >BrandName</a>
 	   </div>
+	  <div class="collapse navbar-collapse" id="navigation">
+	     <ul class="nav navbar-nav">
+	        <li><a href="#home" >Home</a></li>
+		<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >Portfolio <span class="caret"></span></a>
+		   <ul class="dropdown-menu">
+		      <li><a href="#apps" >Apps</a></li>
+		      <li><a href="#repos" >Repos</a></li>
+		   </ul>
+		</li>
+		<li><a href="#about" >About</a></li>
+		<li><a href="#contact" >Contact</a></li>
+	     </ul>
+	     <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#" >Log-in <span><i class="glyphicon glyphicon-log-in"></i></span></a></li>
+		<li><a href="#" >Sign Up <span><i class="glyphicon glyphicon-user"></i></span></a></li>
+	     </ul>
+	  </div>
+	</div>
+    </nav>
+    <div class="container scrollable">
+       <div class="col-sm-8">
+	  <div id="home">
+	     <h3>Home</h3>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus dui mi, et tempor odio lacinia eu. Sed iaculis massa nisi, et interdum est efficitur et. Nullam sed bibendum urna. Pellentesque porttitor erat non elit congue, sit amet aliquam ligula blandit. Suspendisse potenti. Fusce gravida rhoncus tortor, in porta tortor. </p>
+	  </div>
+	  <div id="apps">
+	     <h3>Applications</h3>
+	     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus dui mi, et tempor odio lacinia eu. Sed iaculis massa nisi, et interdum est efficitur et. Nullam sed bibendum urna. Pellentesque porttitor erat non elit congue, sit amet aliquam ligula blandit. Suspendisse potenti. Fusce gravida rhoncus tortor, in porta tortor. </p>
+	  </div>
+	  <div id="repos">
+	     <h3>Repositories</h3>
+	     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus dui mi, et tempor odio lacinia eu. Sed iaculis massa nisi, et interdum est efficitur et. Nullam sed bibendum urna. Pellentesque porttitor erat non elit congue, sit amet aliquam ligula blandit. Suspendisse potenti. Fusce gravida rhoncus tortor, in porta tortor. </p>
+	  </div>
+	  <div id="about">
+	     <h3>About</h3>
+	     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus dui mi, et tempor odio lacinia eu. Sed iaculis massa nisi, et interdum est efficitur et. Nullam sed bibendum urna. Pellentesque porttitor erat non elit congue, sit amet aliquam ligula blandit. Suspendisse potenti. Fusce gravida rhoncus tortor, in porta tortor. </p>
+	  </div>
+	  <div id="contact">
+	    <h3>Contact</h3>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus dui mi, et tempor odio lacinia eu. Sed iaculis massa nisi, et interdum est efficitur et. Nullam sed bibendum urna. Pellentesque porttitor erat non elit congue, sit amet aliquam ligula blandit. Suspendisse potenti. Fusce gravida rhoncus tortor, in porta tortor. </p>
+	  </div>
+     </div>
+</div>
  <!-- Put scripts befere the end of BODY -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
