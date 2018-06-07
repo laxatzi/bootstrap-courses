@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<!--HEAD-->
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap 3: Affix plugin</title>
+    <meta name="description" content="Description goes here...">
+      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">  
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
+    <!--  google fonts go here...  --> 
+      <link rel="stylesheet"  href="affix.css">  
+  </head>
+  <!--END of HEAD-->
+  <body data-spy="scroll" data-toggle=".navbar" data-offset="50">
+      <div class="container-fluid">
+		  <h1>Scrollspy & Affix Example</h1>
+		  <h2>Fixed navbar on scroll</h2>
+		  <p>Scroll this page to see how the navbar behaves with data-spy="affix" and data-spy="scrollspy"</p>
+	  </div>
+		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="190">
+			<div class="container-fluid">
+				<div class="navbar-header">
+				   <button class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+				       <span class="icon-bar"></span>
+				       <span class="icon-bar"></span>
+				       <span class="icon-bar"></span>
+				   </button>
+					<a href="#" class="navbar-brand">Brand</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navigation">
+					<ul class="nav navbar-nav">
+						<li><a href="#home" >Home</a></li>
+						<li class="dropdown"><a href="#portfolio" data-toggle="dropdown" class="dropdown-toggle" >Portfolio <span class="caret"></span></a>
+						    <ul class="dropdown-menu">
+								<li><a href="#apps" >Applications</a></li>
+								<li><a href="#repos" >Repositories</a></li>
+							</ul>
+						</li>
+						<li><a href="#about" >About</a></li>
+                           <li><a href="#contact" >Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" ><span><i class="glyphicon glyphicon-user">Sign Up</i></span></a></li>
+						<li><a href="#" ><span><i class="glyphicon glyphicon-log-in">Log In</i></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container-fluid">
+			<div id="home">
+				<h3>Home</h3>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+       				navigation bar while scrolling!
+				</p>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+       				navigation bar while scrolling!
+				</p>
+			</div>			
+			<div id="apps">
+				<h3>Applications</h3>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+       				navigation bar while scrolling!
+				</p>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+       				navigation bar while scrolling!
+				</p>
+			</div>			
+			<div id="repos">
+				<h3>Repositories</h3>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+       				navigation bar while scrolling!
+				</p>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+       				navigation bar while scrolling!
+				</p>
+			</div>			
+			<div id="about">
+				<h3>About</h3>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+       				navigation bar while scrolling!
+				</p>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+       				navigation bar while scrolling!
+				</p>
+			</div>			
+			<div id="contact">
+				<h3>Contact</h3>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+       				navigation bar while scrolling!
+				</p>
+				<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+       				navigation bar while scrolling!
+				</p>
+			</div>
+		</div>
+ <!-- Put scripts befere the end of BODY -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+   <!--End of Body-->
+  </body>
+</html> 
