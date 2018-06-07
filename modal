@@ -8,48 +8,43 @@
 	<title>Bootstrap3: Modal</title>
     <meta name="description" content="Description goes here...">
       <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> 
-      <link rel="stylesheet" href="MyVisible.css"> 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">  
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
     <!--  google fonts go here...  --> 
-      <link rel="stylesheet"  href="modals.css">  
   </head>
   <!--END of HEAD-->
   <body>
-      
-	  <div class="container">
-		  <h2>Example of a  Modal</h2>
-		 <!--BUTTON THAT TRIGERS MODAL--> 
-		    <button class="btn btn-info btn-lg" type="button" data-target="#modalId" data-toggle="modal">
-			    Open Modal
-			</button>
-			
-		<!--MODAL-->
-		    <div class="modal fade" id="modalId" role="dialog">
-				<div class="modal-dialog">
-					<!--MODAL CONTENT-->
-					<div class="modal-content">
-						<div class="modal-header">
-							<button class="close" type="button" data-dismiss="modal">&times;</button>
-							<h4>Header modal</h4>
-						</div>
-					     <div class="modal-body">
-							 <p>Some modal text</p>
-						 </div>
-						 <div class="modal-footer">
-							 <button class="btn btn-default btn-sm" type="button" data-dismiss="modal" >
-							     Close
-							 </button>
-						 </div>
-					</div>
-				</div>
-			</div>
-	  </div>
+     <div class="container">
+         <h2>Example of a  Modal</h2>
+<!--BUTTON THAT TRIGERS MODAL--> 
+	  <button class="btn btn-info btn-lg" type="button" data-target="#modalId" data-toggle="modal">
+	     Open Modal
+	  </button>
+<!--MODAL-->
+	  <div class="modal fade" id="modalId" role="dialog">
+	     <div class="modal-dialog">
+<!--MODAL CONTENT-->
+	    <div class="modal-content">
+	       <div class="modal-header">
+		  <button class="close" type="button" data-dismiss="modal">&times;</button>
+		  <h4>Header modal</h4>
+	       </div>
+	    <div class="modal-body">
+		<p>Some modal text</p>
+	    </div>
+	    <div class="modal-footer">
+	       <button class="btn btn-default btn-sm" type="button" data-dismiss="modal" >
+		   Close
+		</button>
+	    </div>
+	</div>
+     </div>
+  </div>
+</div>
 	  
  <!-- Put scripts befere the end of BODY -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
-   <script src="modalsNew.js"></script>
    <!--End of Body-->
   </body>
 </html> 
