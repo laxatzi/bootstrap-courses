@@ -8,53 +8,49 @@
 	<title>Navbar New</title>
     <meta name="description" content="Description goes here...">
       <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> 
-      <link rel="stylesheet" href="MyVisible.css"> 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">  
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
     <!--  google fonts go here...  --> 
-      <link rel="stylesheet"  href="navbarNew.css">  
   </head>
   <!--END of HEAD-->
   <body>
      <nav class="navbar navbar-inverse">
-		 <div class="container-fluid">
-		  
-			 <div class="navbar-header">
-			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navId">
-				    <span class="icon-bar"></span>
-				    <span class="icon-bar"></span>
-				    <span class="icon-bar"></span>
-				</button>
-				 <a href="#" class="navbar-brand" >Website</a>
-			 </div>
-			 <div class="collapse navbar-collapse" id="navId">
-			 
-			 <ul class="nav navbar-nav" role="menu">
-				 <li role="presentation"><a href="#"  role="menuitem">Home</a></li>
-				 <li class="menu" ><a href="#" data-toggle="dropdown" class="dropdown-toggle" role="menuitem">Portfolio</a>
-				     <ul class="dropdown-menu"  role="menu">
-						 <li role="presentation"><a href="#" role="menuitem">Websites</a></li>
-						 <li role="presentation"><a href="#" role="menuitem">Apps</a></li>
-					 </ul>
-				 </li>
-				 <li role="presentation"><a href="#" role="menuitem">About</a></li>
-				 <li role="presentation"><a href="#" role="menuitem">Contact</a></li>
-			 </ul>
-			 <ul class="nav navbar-nav navbar-right" id="navLog" role="menu">
-				 <li role="presentation"><a href="#" role="menuitem"><span class="glyphicon glyphicon-user"> Sign-up</span></a></li>
-				 <li role="presentation"><a href="#" role="menuitem7"><span class="glyphicon glyphicon-log-in"> Sign-in</span></a></li>
-			 </ul>
-			 </div>
-		 </div>
+        <div class="container-fluid">
+	   <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navId">
+		 <span class="icon-bar"></span>
+		 <span class="icon-bar"></span>
+		 <span class="icon-bar"></span>
+	      </button>
+	      <a href="#" class="navbar-brand" >Website</a>
+	   </div>
+	   <div class="collapse navbar-collapse" id="navId">
+		<ul class="nav navbar-nav" role="menu">
+		   <li role="presentation"><a href="#"  role="menuitem">Home</a></li>
+		   <li class="menu" ><a href="#" data-toggle="dropdown" class="dropdown-toggle" role="menuitem">Portfolio</a>
+		      <ul class="dropdown-menu"  role="menu">
+			 <li role="presentation"><a href="#" role="menuitem">Websites</a></li>
+			 <li role="presentation"><a href="#" role="menuitem">Apps</a></li>
+		      </ul>
+		   </li>
+		   <li role="presentation"><a href="#" role="menuitem">About</a></li>
+		   <li role="presentation"><a href="#" role="menuitem">Contact</a></li>
+		 </ul>
+		 <ul class="nav navbar-nav navbar-right" id="navLog" role="menu">
+		    <li role="presentation"><a href="#" role="menuitem"><span class="glyphicon glyphicon-user"> Sign-up</span></a></li>
+		    <li role="presentation"><a href="#" role="menuitem7"><span class="glyphicon glyphicon-log-in"> Sign-in</span></a></li>
+		 </ul>
+		</div>
+	   </div>
 	 </nav>
      <div class="container">
-		 <h2>Basic Navbar Example</h2>
-		 <p>An example of a simple navbar</p>
-	 </div>
+	<h2>Basic Navbar Example</h2>
+	<p>An example of a simple navbar</p>
+    </div>
  <!-- Put scripts befere the end of BODY -->
+ 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
-   <script src="navbarNew.js"></script>
    <!--End of Body-->
   </body>
 </html> 
