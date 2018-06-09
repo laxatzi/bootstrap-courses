@@ -1,0 +1,45 @@
+html,
+body   {
+     
+}
+
+
+     .loader   {
+	     width: 50%;
+		 margin: 5rem auto;
+		 font-family: helvetica, arial, sans-serif;
+		 text-align: center;
+     }
+	 
+	   .loader--par  {
+			font-weight: bold;
+			font-size: 1.3rem;
+	   }
+	   
+	      .loader--author  {
+			   font-weight: normal;
+			   font-size: .85rem;
+			   color: grey;
+			   display: block;
+			   margin-bottom: .85rem;
+			   }
+			   
+		 .loader--anim  {
+		     width: 3rem;
+			 height: 3rem;
+			 border: 5px solid grey;
+			 border-top-color: cyan;
+			 border-left-color: cyan;
+			 border-radius: 50%;
+			 display: inline-block;
+			 animation: rotate 700ms infinite linear;
+		 }
+		 
+	@keyframes rotate 
+	
+	{
+		to {
+		    transform: rotate(1turn);
+		}
+	}
+	
