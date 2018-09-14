@@ -1,23 +1,30 @@
 * {
-    /* outline: 1px solid red; */
     font-size: 20px;
 }
-
-   .body-signing {
-       background-color: #e6f2ff;
+   body {
+       font-size: 90%;
    }
-   .container-signing {
-      margin-top: 10%;
-   }
+      .body-signing {
+          background-color: #e6f2ff;
+      }
+      .container-signing {
+         margin: 7% auto 5%;
+      }
 
-   .card-signing {
-        padding: 2rem 0 1rem;
-        background-color: |#f4f4f4;
-        box-shadow: 2px 2px 5px rgba( 0, 0, 0, .5);
-   }
+      .card-signing {
+           padding: 1rem 5% .5rem;
+           background-color: #f4f4f4;
+           box-shadow: 2px 2px 5px rgba( 0, 0, 0, .5);
+      }
 
-   .img-signing {
-       margin: auto;
-       padding: 0 2rem ;
-       display: block;
-}
+         .img-signing {
+             margin: 1rem auto;
+             padding: 0;
+             display: block;
+             width: 50%;
+        }
+
+        .form-signing {
+             max-width: 350px;
+             margin: auto;
+         }
