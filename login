@@ -29,7 +29,7 @@
                                 <input type="checkbox" class="form-check-input" id="inputCheck">
                                 <label class="form-check-label" for="inputCheck">Check me out</label>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary btn-sm btn-block btn-purple">Submit</button>
                         </form>
                     </div>
                 </div>
