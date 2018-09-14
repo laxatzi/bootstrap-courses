@@ -36,4 +36,9 @@
           font-style: oblique;
           font-size: 80%;
          }
-
+   .newAccount {
+       font-size: 90%;
+       display: block;
+       margin: .5rem auto;
+       text-align: center;
+   }
