@@ -27,7 +27,7 @@
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="inputCheck">
-                                <label class="form-check-label" for="inputCheck">Check me out</label>
+                                <label class="form-check-label" for="inputCheck">Check me out <a href="#" class="help">Need help?</a></label>
                             </div>
                             <button type="submit" class="btn btn-primary btn-sm btn-block btn-purple">Submit</button>
                         </form>
