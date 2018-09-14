@@ -36,7 +36,8 @@
             </div><!-- end of col -->
             <div class="col"></div><!-- end of col -->
         </div>
-    </div>
+        <a href="#" class="newAccount">Sign up to create a new account</a> <!-- New account sign up link just bellow the form -->
+   </div>
 
 
     <!-- Optional JavaScript -->
