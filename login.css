@@ -31,4 +31,9 @@
         .btn-purple {
            background: rgb(135, 45, 170);
            border-color: rgb(135, 45, 170);
-}
+         }
+        .help { 
+            font-style: oblique;
+            font-size: 80%;
+         }
+
