@@ -28,3 +28,7 @@
              max-width: 350px;
              margin: auto;
          }
+        .btn-purple {
+           background: rgb(135, 45, 170);
+           border-color: rgb(135, 45, 170);
+}
