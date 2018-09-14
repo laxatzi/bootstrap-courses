@@ -16,7 +16,7 @@
             <div class="col-8">
                 <div class="card card-signing">
                     <div class="card-body">
-                       
+                       <img src="img/logo.png" alt="company logo" class="img-fluid">
                     </div>
                 </div>
             </div><!-- end of col -->
