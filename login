@@ -16,7 +16,7 @@
             <div class="col-8">
                 <div class="card card-signing">
                     <div class="card-body">
-                       This is some text within a card body.
+                       
                     </div>
                 </div>
             </div><!-- end of col -->
