@@ -13,10 +13,24 @@
     <div class="container container-signing">
         <div class="row">
             <div class="col"></div> <!-- end of col -->
-            <div class="col-8">
+            <div class="col-md-8 col-lg-6 col-xl-6" >
                 <div class="card card-signing">
                     <div class="card-body">
-                       <img src="img/logo.png" alt="company logo" class="img-fluid">
+                        <img src="img/logo.png" alt="company logo" class="img-fluid img-signing">
+                        <form class="form-signing">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="inputCheck">
+                                <label class="form-check-label" for="inputCheck">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div><!-- end of col -->
