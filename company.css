@@ -13,3 +13,11 @@
 .logo {
     font-size: 12rem;
 }
+
+@media screen and (max-width: 768px ){
+
+    .col-sm-4 {
+        text-align: center;
+        margin: 1.55rem 0;
+    }
+}
