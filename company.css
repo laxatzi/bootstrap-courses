@@ -4,4 +4,9 @@
 }
 .jumbotron {
     padding: 5.5rem 1.5rem;
+    color: #fff;
+    background-color: #f4511e;
+}
+.bg-grey {
+    background-color: #f6f6f6;
 }
