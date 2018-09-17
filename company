@@ -46,6 +46,53 @@
               <p><strong>Vission:</strong> Our vission is lorem ipsum...</p>
            </div>
         </div>
+    </div> <!-- end about -->
+    <!-- Services section -->
+    <div class="container-fluid text-center">
+        <h2>Services</h2>
+        <h4>What we offer</h4><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-off" ></span>
+                <h4>Power</h4>
+                <p>Lorem ipsum dollor sit amet...</p>
+            </div>
+
+        
+        
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-lock" ></span>
+                <h4>Job Done</h4>
+                <p>Lorem ipsum dollor sit amet...</p>
+            </div>
+
+        
+        
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-heart" ></span>
+                <h4>Love</h4>
+                <p>Lorem ipsum dollor sit amet...</p>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-sm-4">
+               <span class="glyphicon glyphicon-leaf" ></span>
+               <h4>Green</h4>
+               <p>Lorem ipsum dollor sit amet...</p>
+            </div>
+            <div class="col-sm-4">
+               <span class="glyphicon glyphicon-certificate" ></span>
+               <h4>Certified</h4>
+               <p>Lorem ipsum dollor sit amet...</p>
+            </div>
+            <div class="col-sm-4">
+               <span class="glyphicon glyphicon-wrench" ></span>
+               <h4>Hard Work</h4>
+               <p>Lorem ipsum dollor sit amet...</p>
+            </div>
+        </div>
+
     </div>
     <!-- Script -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
