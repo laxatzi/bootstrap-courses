@@ -14,7 +14,7 @@
         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         <form class="form-inline">
             <div class="input-group">
-               <input type="email" class="form-control" placeholder="Enter emali" size="50" required>
+               <input type="email" class="form-control" placeholder="Enter email" size="50" required>
                <div class="input-group-btn">
                   <button type="button" class="btn btn-danger">Subsribe</button>
                </div>
