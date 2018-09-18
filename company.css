@@ -18,6 +18,16 @@
     font-size: 4rem;
     color: #C9302C;
 }
+.thumbnail {
+    border-radius:  0;
+    border: none;
+    padding: 0 0 15px 0;
+}
+ .thumbnail img {
+     width: 100%;
+     height: 100%;
+     margin-bottom: 10px;
+ }
 
 @media screen and (max-width: 768px ){
 
