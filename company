@@ -95,7 +95,7 @@
                     <img src="paris.png" alt="image of Paris">
                     <p><strong>Paris</strong> </p>
                     <p>Yes, we 've have build Paris</p>
-                </div>
+                </div>                                      <!-- End of Col-->
             </div>                      
             <div class="col-sm-4">
                 <div class="thumbnail">
@@ -103,17 +103,18 @@
                     <p><strong>New York</strong> </p>
                     <p>Yes, we 've have build New York</p>
                 </div>
-            </div>
+            </div>                                          <!-- End of Col-->
             <div class="col-sm-4">
                 <div class="thumbnail">
                     <img src="sanFransisco.png" alt="image of San Fransisco">
                     <p><strong>San Fransisco</strong> </p>
                     <p>Yes, we 've have build San Fransisco</p>
                 </div>
-            </div>
-        </div>
-
+            </div>                                          <!-- End of Col-->
+        </div>                                              <!-- End of row-->
     </section>
+    <!-- end of section -->
+    
     
     <!-- Script -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
