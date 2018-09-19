@@ -114,6 +114,10 @@
         </div>                                              <!-- End of row-->
     </section>
     <!-- end of section -->
+    <!-- carousel/testimonials section -->
+    <section class="container-fluid text-center bg-grey">
+        <h2>What our customers say</h2>
+    </section>
     
     
     <!-- Script -->
