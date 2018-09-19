@@ -118,6 +118,12 @@
     <section class="container-fluid text-center bg-grey">
         <h2>What our customers say</h2>
         <div id="testimonials" class="carousel slide" data-ride="carousel">
+    <!-- indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#testimonials" data-slide-to="0"></li>
+                <li data-target="#testimonials" data-slide-to="1"></li>
+                <li data-target="#testimonials" data-slide-to="2"></li>
+            </ol>  
     <!-- slide wrappers    -->
             <div class="carousel-inner">
                 <div class="item active">
