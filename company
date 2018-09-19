@@ -118,7 +118,21 @@
     <section class="container-fluid text-center bg-grey">
         <h2>What our customers say</h2>
         <div id="testimonials" class="carousel slide" data-ride="carousel">
-        
+    <!-- slide wrappers    -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <h4>"One word...WOW!!"</h4>
+                    <span>John Doe, salesman, Rep Inc.</span>
+                </div>
+                <div class="item">
+                    <h4>"This company is the best. I am so happy with the result!"</h4>
+                    <span>Michael Roe, Vice President, Comment Box</span>
+                </div>
+                <div class="item">
+                    <h4>"Could I...BE any more happy with this company?"</h4>
+                    <span>Chandler Bing, Actor, FriendsAlot</span>
+                </div>
+            </div>
         </div>
     </section>
     
