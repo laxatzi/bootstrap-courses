@@ -156,6 +156,7 @@
        <div class="text-center">
           <h2>Pricing</h2>
           <h4>Choose choose a payment plan that works for you</h4>
+        </div>
         <div class="row">
    <!--basic plan-->
             <div class="col-sm-4">
@@ -177,7 +178,27 @@
                     </div>
                 </div>
             </div>
+    <!-- business -->
+        <div class="col-sm-4">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h2>Business</h2>
+                </div>
+                <div class="panel-body">
+                     <p><strong>50</strong> Lorem</p>
+                     <p><strong>20</strong> Ipsum</p>
+                     <p><strong>15</strong> Sit</p>
+                     <p><strong>5</strong> Amet</p>
+                     <p><strong>Endless</strong> Dollor</p>
+                </div>
+                <div class="panel-footer">
+                    <h3>$29</h3>
+                    <h4>per month</h4>
+                    <button class="btn btn-lg">Sign up</button>
+                </div>
+            </div>
         </div>
+       
       </div>
     </section>
     <!-- Script -->    
