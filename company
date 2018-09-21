@@ -232,7 +232,14 @@
                 <p><span class="glyphicon glyphicon-"></span> myemail@samething.com</p>
             </div>
             <div class="col-sm-7"> <!--inputs col -->
-
+                <div class="row">
+                  <div class="col-sm-6">
+                    <input type="text" placeholder="Name">
+                  </div>
+                  <div class="col-sm-6">
+                    <input type="email" placeholder="Email">
+                  </div>
+                </div>
             </div>
         </div>
     </section>
