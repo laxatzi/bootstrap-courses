@@ -233,11 +233,11 @@
             </div>
             <div class="col-sm-7"> <!--inputs col -->
                 <div class="row">
-                  <div class="col-sm-6">
-                    <input type="text" placeholder="Name">
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control" type="text" placeholder="Name" required>
                   </div>
-                  <div class="col-sm-6">
-                    <input type="email" placeholder="Email">
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control" type="email" placeholder="Email" required>
                   </div>
                 </div>
             </div>
