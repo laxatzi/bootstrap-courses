@@ -220,6 +220,19 @@
         </div> <!-- end of col -->
      </div>
     </section> <!-- end of price plans section -->
+    <section class="container-fluid bg-grey">
+        <div class="text-center">
+            <h2>Contact</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-5"> <!--info col -->
+                
+            </div>
+            <div class="col-sm-7"> <!--inputs col -->
+
+            </div>
+        </div>
+    </section>
     <!-- Script -->    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
