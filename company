@@ -227,9 +227,9 @@
         <div class="row">
             <div class="col-sm-5"> <!--info col -->
                 <h4>Contact us and we 'll be back to you within 24 hours</h4>
-                <p><span class="glyphicon glyphicon-"></span> Chicago, US</p>
-                <p><span class="glyphicon glyphicon-"></span> +0015 15151515</p>
-                <p><span class="glyphicon glyphicon-"></span> myemail@samething.com</p>
+                <p><span class="glyphicon glyphicon-marker"></span> Chicago, US</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +0015 15151515</p>
+                <p><span class="glyphicon glyphicon-envelop"></span> myemail@samething.com</p>
             </div>
             <div class="col-sm-7"> <!--inputs col -->
                 <div class="row">
