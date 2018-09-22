@@ -21,7 +21,13 @@
                 </button>
                 <a class="navbar-brand"    href="#">Logo</a>
             </div> <!-- end of navbar header-->
-            
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Servises</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </div>
     </nav>
 <!-- Jumbtron -->
