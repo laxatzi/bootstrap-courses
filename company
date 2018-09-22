@@ -241,8 +241,8 @@
                   </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12 text-right">
-                        <button class="btn btn-default">Send</button>
+                    <div class="col-sm-12">
+                        <button class="btn btn-default pull-right" type="submit" >Send</button>
                     </div>
                 </div>
             </div>
