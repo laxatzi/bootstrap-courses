@@ -12,7 +12,16 @@
  <!-- navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-
+            <!-- navbar header -->
+            <div class="navbar-header">
+                <button type="button" data-toggle="collapse" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand"    href="#">Logo</a>
+            </div> <!-- end of navbar header-->
+            
         </div>
     </nav>
 <!-- Jumbtron -->
