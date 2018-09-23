@@ -30,7 +30,7 @@
                   <li><a href="#">Pricing</a></li>
                   <li><a href="#">Contact</a></li>
                </ul>
-            </div>
+            </div> <!-- End of navbar-bar-->
         </div>
     </nav>
 <!-- Jumbtron -->
