@@ -9,6 +9,31 @@
 
 </head>
 <body>
+ <!-- navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- navbar header -->
+            <div class="navbar-header">
+                <button type="button" data-toggle="collapse" class="navbar-toggle" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand"    href="#">Logo</a>
+            </div> <!-- end of navbar header-->
+            <!-- navbar-nav -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav navbar-right">
+                 <li><a href="#">About</a></li>
+                  <li><a href="#">Servises</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Contact</a></li>
+               </ul>
+            </div> <!-- End of navbar-bar-->
+        </div>
+    </nav>
+<!-- Jumbtron -->
     <div class="jumbotron text-center">
         <h1>Our Company</h1>
         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -23,18 +48,233 @@
     </div>
     <!-- Container - About -->
     <div class="container-fluid">
-         <h2>About our Company</h2>
-         <h4>Lorem ipsum...</h4>
-         <p>Donec molestie nibh nunc...</p>
-         <button class="btn btn-default btn-lg">Get in touch with us!</button>
+       <div class="row">
+          <div class="col-sm-8">
+             <h2>About our Company</h2>
+             <h4>Lorem ipsum...</h4>
+             <p>Donec molestie nibh nunc...</p>
+             <button class="btn btn-default btn-lg">Get in touch with us!</button>
+         </div>
+         <div class="col-sm-4">
+            <span class="glyphicon glyphicon-signal logo"></span>
+         </div>
+       </div>
     </div>
     <div class="container-fluid bg-grey">
-        <h2>Our Values</h2>
-        <h4><strong>Mission:</strong> Our mission is lorem ipsum...</h4>
-        <p><strong>Vission:</strong> Our vission is lorem ipsum...</p>
-    </div>
-    <!-- Script -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       <div class="row">
+           <div class="col-sm-4">
+              <span class="glyphicon glyphicon-globe logo">
+           </div>
+           <div class="col-sm-8"
+              <h2>Our Values</h2>
+              <h4><strong>Mission:</strong> Our mission is lorem ipsum...</h4>
+              <p><strong>Vission:</strong> Our vission is lorem ipsum...</p>
+           </div>
+        </div>
+    </div> <!-- end about -->
+    <!-- Services section -->
+    <div class="container-fluid text-center">
+        <h2>Services</h2>
+        <h4>What we offer</h4><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-off" ></span>
+                <h4>Power</h4>
+                <p>Lorem ipsum dollor sit amet...</p>
+            </div>                                          <!-- End of Col-->
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-lock" ></span>
+                <h4>Job Done</h4>
+                <p>Lorem ipsum dollor sit amet...</p>
+            </div>                                             <!-- End of Col-->
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-heart" ></span>
+                <h4>Love</h4>
+                <p>Lorem ipsum dollor sit amet...</p>
+            </div>                                              <!-- End of Col-->
+        </div>                                                  <!-- End of row-->
+        <div class="row">
+             <div class="col-sm-4">
+               <span class="glyphicon glyphicon-leaf" ></span>
+               <h4>Green</h4>
+               <p>Lorem ipsum dollor sit amet...</p>
+            </div>                                              <!-- End of Col-->
+            <div class="col-sm-4">
+               <span class="glyphicon glyphicon-certificate" ></span>
+               <h4>Certified</h4>
+               <p>Lorem ipsum dollor sit amet...</p>
+            </div>                                              <!-- End of Col-->
+            <div class="col-sm-4">
+               <span class="glyphicon glyphicon-wrench" ></span>
+               <h4>Hard Work</h4>
+               <p>Lorem ipsum dollor sit amet...</p>
+            </div>                                              <!-- End of Col-->
+        </div>                                                  <!-- End of row-->
+     </div>
+     <!-- End of Services Section -->
+     <!-- Portfolio Section -->
+     <section class="container-fluid text-center bg-grey">
+     <h2>What we have built</h2>
+         <div class="row">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="paris.png" alt="image of Paris">
+                    <p><strong>Paris</strong> </p>
+                    <p>Yes, we 've have build Paris</p>
+                </div>                                      <!-- End of Col-->
+            </div>                      
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="ny.png" alt="image of New York">
+                    <p><strong>New York</strong> </p>
+                    <p>Yes, we 've have build New York</p>
+                </div>
+            </div>                                          <!-- End of Col-->
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="sanFransisco.png" alt="image of San Fransisco">
+                    <p><strong>San Fransisco</strong> </p>
+                    <p>Yes, we 've have build San Fransisco</p>
+                </div>
+            </div>                                          <!-- End of Col-->
+        </div>                                              <!-- End of row-->
+    </section>
+    <!-- end of section -->
+    <!-- carousel/testimonials section -->
+    <section class="container-fluid text-center bg-grey">
+        <h2>What our customers say</h2>
+        <div id="testimonials" class="carousel slide" data-ride="carousel">
+    <!-- indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#testimonials" data-slide-to="0"></li>
+                <li data-target="#testimonials" data-slide-to="1"></li>
+                <li data-target="#testimonials" data-slide-to="2"></li>
+            </ol>                                                           <!-- end of list-->
+    <!-- slide wrappers    -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <h4>"One word...WOW!!"</h4>
+                    <span>John Doe, salesman, Rep Inc.</span>
+                </div>
+                <div class="item">
+                    <h4>"This company is the best. I am so happy with the result!"</h4>
+                    <span>Michael Roe, Vice President, Comment Box</span>
+                </div>
+                <div class="item">
+                    <h4>"Could I...BE any more happy with this company?"</h4>
+                    <span>Chandler Bing, Actor, FriendsAlot</span>
+                </div>
+            </div>                                              <!-- end of "carousel inner" -->
+    <!-- carousel controls -->
+            <a class="carousel-control left" href="#testimonials" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" ></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control right" href="#testimonials" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" ></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section> <!-- End of testimonials carousel -->
+    <!-- section price plans -->
+    <section class="container-fluid">
+       <div class="text-center">
+          <h2>Pricing</h2>
+          <h4>Choose choose a payment plan that works for you</h4>
+        </div>
+        <div class="row">
+   <!--basic plan-->
+            <div class="col-sm-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h2>Basic</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>20</strong> Lorem</p>
+                        <p><strong>15</strong> Ipsum</p>
+                        <p><strong>10</strong> Sit</p>
+                        <p><strong>5</strong> Amet</p>
+                        <p><strong>Endless</strong> Dollor</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$19</h3>
+                        <h4>per mont</h4>
+                        <button class="btn btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+    <!-- business -->
+        <div class="col-sm-4">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h2>Business</h2>
+                </div>
+                <div class="panel-body">
+                     <p><strong>50</strong> Lorem</p>
+                     <p><strong>20</strong> Ipsum</p>
+                     <p><strong>15</strong> Sit</p>
+                     <p><strong>5</strong> Amet</p>
+                     <p><strong>Endless</strong> Dollor</p>
+                </div>
+                <div class="panel-footer">
+                    <h3>$29</h3>
+                    <h4>per month</h4>
+                    <button class="btn btn-lg">Sign up</button>
+                </div>
+            </div>
+        </div>
+       <!-- enterprise  -->
+        <div class="col-sm-4">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h2>Enterprise</h2>
+                </div>
+                <div class="panel-body">
+                    <p><strong>100</strong> Lorem</p>
+                    <p><strong>50</strong> Ipsum</p>
+                    <p><strong>20</strong> Sit</p>
+                    <p><strong>15</strong> Amet</p>
+                    <p><strong>Endless</strong> Dollor</p>
+                </div>
+                <div class="panel-footer">
+                    <h3>$39</h3>
+                    <h4>per month</h4>
+                    <button class="btn btn-lg">Sign Up</button>
+                </div>
+            </div>
+        </div> <!-- end of col -->
+     </div>
+    </section> <!-- end of price plans section -->
+    <section class="container-fluid bg-grey">
+        <div class="text-center">
+            <h2>Contact</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-5"> <!--info col -->
+                <h4>Contact us and we 'll be back to you within 24 hours</h4>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +0015 15151515</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> myemail@samething.com</p>
+            </div>
+            <div class="col-sm-7"> <!--inputs col -->
+                <div class="row">
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control" type="text" placeholder="Name" required>
+                  </div>
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control" type="email" placeholder="Email" required>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <button class="btn btn-default pull-right" type="submit" >Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Script -->    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
