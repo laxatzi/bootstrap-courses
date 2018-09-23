@@ -14,20 +14,23 @@
         <div class="container">
             <!-- navbar header -->
             <div class="navbar-header">
-                <button type="button" data-toggle="collapse" class="navbar-toggle">
+                <button type="button" data-toggle="collapse" class="navbar-toggle" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand"    href="#">Logo</a>
             </div> <!-- end of navbar header-->
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Servises</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <!-- navbar-nav -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav navbar-right">
+                 <li><a href="#">About</a></li>
+                  <li><a href="#">Servises</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Contact</a></li>
+               </ul>
+            </div> <!-- End of navbar-bar-->
         </div>
     </nav>
 <!-- Jumbtron -->
