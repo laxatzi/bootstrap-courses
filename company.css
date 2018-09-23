@@ -107,8 +107,11 @@ h4 {
     letter-spacing: 4px;
     font-size: 18px !important;
     line-height: 1.45 !important;
-    
-}
+    }
+
+   .navbar-brand,
+   .navbar li a { color: #fff !important; }
+
 @media screen and (max-width: 768px ){
 
     .col-sm-4 {
