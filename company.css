@@ -111,7 +111,17 @@ h4 {
 
    .navbar-brand,
    .navbar li a { color: #fff !important; }
-
+   
+.navbar-default .navbar-toggle  { 
+    border-color: transparent;
+    color: #fff !important;
+}
+ .navbar-nav li a:hover,
+ .navbar-nav li.active a {
+    background-color: #fff !important;
+    color: #f4511e !important;
+ }
+   
 @media screen and (max-width: 768px ){
 
     .col-sm-4 {
