@@ -1,4 +1,8 @@
+.row {padding: 15px 0; }
 
+h4 {
+    margin-bottom: 15px;    
+}
 .container-fluid {
     padding: 3.3rem 3rem; 
 }
@@ -90,7 +94,11 @@
     color: #aaa;
     font-size: 14px;
 }
-
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+}
 
 .panel {
     border: 1px solid #f4511e;
