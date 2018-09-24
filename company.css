@@ -1,10 +1,10 @@
 .row {padding: 15px 0; }
 body {
-    line-height: 145;
+    line-height: 1.45;
     color: #818181;
     font-size: 16px;
     font-weight: 400;
-    font-family: Lato, Arial, Helvetica, sans-serif
+    font-family: Lato, Arial, Helvetica, sans-serif;
 }
 h2 {
     font-size: 24px;
@@ -15,7 +15,7 @@ h2,
 h4 {
     margin-bottom: 30px; 
     color: #303030;
-    font-weight: 400  
+    font-weight: 400;  
 }
 .container-fluid {
     padding: 3.3rem 3rem; 
@@ -29,7 +29,7 @@ h4 {
     background-color: #f6f6f6;
 }
 .logo {
-    font-size: 12rem;
+    font-size: 15rem;
     color: #C9302C;
 }
 .logo-small {
