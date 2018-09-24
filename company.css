@@ -135,6 +135,19 @@ h4 {
     background-color: #fff !important;
     color: #f4511e !important;
  }
+  
+  #myGoogleMap {
+      height: 400px;
+      width: 100%;
+  }  
+  #topOfPage span {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
+  #topOfPage a {
+    transition-timing-function: ease; 
+  }
 @media screen and (max-width: 768px ){
 
     .col-sm-4 {
