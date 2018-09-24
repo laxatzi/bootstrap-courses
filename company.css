@@ -1,5 +1,11 @@
 .row {padding: 15px 0; }
-
+body {
+    line-height: 145;
+    color: #818181;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Lato, Arial, Helvetica, sans-serif
+}
 h4 {
     margin-bottom: 15px;    
 }
