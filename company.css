@@ -73,7 +73,7 @@ h4 {
 .item span {
     font-style: normal;
 }
-
+/* PRICING PANELS */
 .panel {
     border: 1px solid #f4511e;
     border-radius:0;
@@ -82,13 +82,8 @@ h4 {
 .panel:hover {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
-.panel-footer .btn:hover {
-    border: 1px solid #f4511e;
-    background-color: #fff !important;
-    color: #f4511e;
-}
+
 .panel-heading {
-    color: #fff !important;
     background-color: #f4511e !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
@@ -102,6 +97,11 @@ h4 {
     background-color: #f4511e;
     color: #fff;
 }
+.panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+}
 .panel-footer h3 {
     font-size: 32px;
 }
@@ -110,11 +110,9 @@ h4 {
     color: #aaa;
     font-size: 14px;
 }
-.panel-footer .btn {
-    margin: 15px 0;
-    background-color: #f4511e;
-    color: #fff;
-}
+.price-heading h2 { color: #fff; }
+
+/* NAVBAR */
 .navbar {
     margin-bottom: 0;
     background-color: #f4511e;
