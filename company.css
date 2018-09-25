@@ -1,4 +1,4 @@
-.row {padding: 15px 0; }
+
 body {
     line-height: 1.45;
     color: #818181;
@@ -10,13 +10,14 @@ h2 {
     font-size: 24px;
     text-transform: uppercase;
 }
-h4 {font-size:  20px; }
+h4 { font-size:  20px; }
 h2,
 h4 {
     margin-bottom: 30px; 
     color: #303030;
     font-weight: 400;  
 }
+.row { padding: 15px; }
 .container-fluid {
     padding: 3.3rem 3rem; 
 }
