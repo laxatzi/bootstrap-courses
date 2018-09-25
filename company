@@ -196,7 +196,7 @@
    <!--basic plan-->
             <div class="col-sm-4">
                 <div class="panel panel-default text-center">
-                    <div class="panel-heading">
+                    <div class="panel-heading price-haeding">
                         <h2>Basic</h2>
                     </div>
                     <div class="panel-body">
@@ -216,7 +216,7 @@
     <!-- business -->
         <div class="col-sm-4">
             <div class="panel panel-default text-center">
-                <div class="panel-heading">
+                <div class="panel-heading price-heading">
                     <h2>Business</h2>
                 </div>
                 <div class="panel-body">
@@ -236,7 +236,7 @@
        <!-- enterprise  -->
         <div class="col-sm-4">
             <div class="panel panel-default text-center">
-                <div class="panel-heading">
+                <div class="panel-heading price-heading">
                     <h2>Enterprise</h2>
                 </div>
                 <div class="panel-body">
