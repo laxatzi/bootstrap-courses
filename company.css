@@ -151,4 +151,13 @@ h4 {
         text-align: center;
         margin: 1.55rem 0;
     }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and ( max-width: 480px ) {
+    .logo {
+         font-size: 9.66rem;   
+    }
 }
