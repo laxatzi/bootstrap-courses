@@ -73,7 +73,7 @@ h4 {
 .item span {
     font-style: normal;
 }
-
+/* PRICING PANELS */
 .panel {
     border: 1px solid #f4511e;
     border-radius:0;
@@ -115,6 +115,8 @@ h4 {
     background-color: #f4511e;
     color: #fff;
 }
+
+/* NAVBAR */
 .navbar {
     margin-bottom: 0;
     background-color: #f4511e;
