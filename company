@@ -277,7 +277,8 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <button class="btn btn-default pull-right" type="submit" >Send</button>
+                       <textarea class="form-control"  name="comments" id="comments"  rows="10" placeholder="Leave your comments..."></textarea>
+                       <button class="btn btn-default pull-right textarea-button" type="submit" >Send</button>
                     </div>
                 </div>
             </div>
