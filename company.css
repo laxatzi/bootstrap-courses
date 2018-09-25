@@ -140,13 +140,10 @@ h4 {
       height: 400px;
       width: 100%;
   }  
-  #topOfPage span {
-      font-size: 20px;
-      margin-bottom: 20px;
+  .glyphicon-chevron-up {
+      font-size: 30px;
+      margin-bottom: 30px;
       color: #f4511e;
-  }
-  #topOfPage a {
-    transition-timing-function: ease; 
   }
 @media screen and (max-width: 768px ){
 
