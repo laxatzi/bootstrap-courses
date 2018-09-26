@@ -9,7 +9,7 @@
     <title>Bootstrap 3- Company Theme</title>
 
 </head>
-<body>
+<body id="topOfPage"  data-spy="scroll" data-target=".navbar" data-offset="50">   <!-- Add scrollspy -->
  <!-- navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
