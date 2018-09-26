@@ -4,7 +4,8 @@ body {
     color: #818181;
     font-size: 16px;
     font-weight: 400;
-    font-family: Lato, Arial, Helvetica, sans-serif
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    position: relative;
 }
 h2 {
     font-size: 24px;
