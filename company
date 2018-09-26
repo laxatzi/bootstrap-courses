@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <title>Bootstrap 3- Company Theme</title>
 
 </head>
@@ -47,12 +48,16 @@
         </form>
     </div>
     <!-- Container - About -->
-    <div class="container-fluid">
+    <section class="container-fluid">
        <div class="row">
           <div class="col-sm-8">
              <h2>About our Company</h2>
-             <h4>Lorem ipsum...</h4>
-             <p>Donec molestie nibh nunc...</p>
+             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
              <button class="btn btn-default btn-lg">Get in touch with us!</button>
          </div>
          <div class="col-sm-4">
@@ -65,15 +70,20 @@
            <div class="col-sm-4">
               <span class="glyphicon glyphicon-globe logo">
            </div>
-           <div class="col-sm-8"
+           <div class="col-sm-8">
               <h2>Our Values</h2>
-              <h4><strong>Mission:</strong> Our mission is lorem ipsum...</h4>
-              <p><strong>Vission:</strong> Our vission is lorem ipsum...</p>
+              <h4><strong>Mission:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+              <p><strong>Vission:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur 
+                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
            </div>
         </div>
-    </div> <!-- end about -->
+    </section> <!-- end about -->
     <!-- Services section -->
-    <div class="container-fluid text-center">
+    <section class="container-fluid text-center">
         <h2>Services</h2>
         <h4>What we offer</h4><br>
         <div class="row">
@@ -110,7 +120,7 @@
                <p>Lorem ipsum dollor sit amet...</p>
             </div>                                              <!-- End of Col-->
         </div>                                                  <!-- End of row-->
-     </div>
+     </section>
      <!-- End of Services Section -->
      <!-- Portfolio Section -->
      <section class="container-fluid text-center bg-grey">
@@ -186,7 +196,7 @@
    <!--basic plan-->
             <div class="col-sm-4">
                 <div class="panel panel-default text-center">
-                    <div class="panel-heading">
+                    <div class="panel-heading price-haeding">
                         <h2>Basic</h2>
                     </div>
                     <div class="panel-body">
@@ -206,7 +216,7 @@
     <!-- business -->
         <div class="col-sm-4">
             <div class="panel panel-default text-center">
-                <div class="panel-heading">
+                <div class="panel-heading price-heading">
                     <h2>Business</h2>
                 </div>
                 <div class="panel-body">
@@ -226,7 +236,7 @@
        <!-- enterprise  -->
         <div class="col-sm-4">
             <div class="panel panel-default text-center">
-                <div class="panel-heading">
+                <div class="panel-heading price-heading">
                     <h2>Enterprise</h2>
                 </div>
                 <div class="panel-body">
@@ -267,14 +277,21 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <button class="btn btn-default pull-right" type="submit" >Send</button>
+                       <textarea class="form-control"  name="comments" id="comments" rows="10" placeholder="Leave your comments..."></textarea>
+                       <button class="btn btn-default pull-right textarea-button" type="submit" >Send</button>
                     </div>
                 </div>
             </div>
         </div>
+    </section><!-- end of contact us  section -->
+    <section id="myGoogleMap">
     </section>
     <!-- Script -->    
+     <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXE__qJ3LPn4Fgad8Ncf2RVo4GQyojc6E&callback=initMap">
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="company.js"></script>
 </body>
 </html>

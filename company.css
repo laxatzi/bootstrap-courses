@@ -6,6 +6,7 @@ body {
     font-weight: 400;
     font-family: Lato, Arial, Helvetica, sans-serif;
     position: relative;
+
 }
 h2 {
     font-size: 24px;
@@ -16,7 +17,7 @@ h2,
 h4 {
     margin-bottom: 30px; 
     color: #303030;
-    font-weight: 400  
+    font-weight: 400;  
 }
 .row { padding: 15px; }
 
@@ -32,7 +33,7 @@ h4 {
     background-color: #f6f6f6;
 }
 .logo {
-    font-size: 12rem;
+    font-size: 15rem;
     color: #C9302C;
 }
 .logo-small {
