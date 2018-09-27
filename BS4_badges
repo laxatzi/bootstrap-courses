@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Button Outline and Button groups</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  
+     <style>
+       .row {
+           margin: 5rem auto;
+       }
+    </style>
 </head>
 <body>
     <div class="row">
