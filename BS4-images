@@ -9,7 +9,14 @@
       <link rel="stylesheet" href="BS4_images.css">
 </head>
 <body>
-   
+   <div class="row">
+        <div class="container image-align">
+            <h2 class="display-4    ">Align images</h2>
+            <p>Use the float classes to float the image to the left or to the right:</p>
+            <img class="float-right" src="https://via.placeholder.com/350x150">
+            <img class="float-left" src="https://via.placeholder.com/350x150">
+        </div>
+    </div>
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
