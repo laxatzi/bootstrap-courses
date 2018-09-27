@@ -9,7 +9,27 @@
   
 </head>
 <body>
-   
+    <div class="row">
+       <div class="container">
+          <h2 class="display-4">Contextual badges <span class="badge badge-secondary">Bootstrap 4</span></h2>
+          <span class="badge badge-primary">Primary</span>
+          <span class="badge badge-info">Info</span>
+          <span class="badge badge-success">Success</span>
+          <span class="badge badge-warning badge-pill">Warning</span>
+          <span class="badge badge-danger badge-pill">Danger</span>
+          <span class="badge badge-secondary">Secondary</span>
+          <span class="badge badge-light">Light</span>
+          <span class="badge badge-dark">Dark</span>
+       </div>
+    </div>
+     <div class="row">
+       <div class="container">
+          <h3>Badge Inside an Element</h3>
+          <button class="btn btn-primary">
+            Messages <span class="badge badge-danger">4</span>
+          </button>
+       </div>
+    </div>
    
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
