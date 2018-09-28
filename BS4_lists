@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>List Groups</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-   
+    <!-- STYLES -->
+       <styles>
+            .list-group {
+               margin-top: 50px;
+            }
+       </styles>
 </head>
 <body>
     <!-- classic list group -->
