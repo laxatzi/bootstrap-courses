@@ -19,7 +19,35 @@
                 </div>
         </div>
     </div>
-
+<!-- card titles, card links -->
+      <div class="row">
+            <div class="container">
+                <h2>Card titles, text, links</h2>
+                <p></p>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Card Title</h4>
+                        <p class="card-text">Some text goes here. Some more text...</p>
+                        <a href="#" class="card-link">My LinkedIn account</a>
+                    </div>
+                </div>
+            </div>
+       </div>
+<!-- card images -->
+         <div class="row">
+         <div class="container">
+            <h3>Card image</h3>
+            <div class="card card-image">
+                <img class="card-image-top" src="customer-2.jpg" alt="picture of Maria Nikolaides">
+                <div class="card-body">
+                    <h4 class="card-title">Maria Nikolaides</h4>
+                    <p class="card-text">Project Manager with a software engineering background. Wife, mother of three children and a proud member of the local Greek comunity</p>
+                    <a href="#" class="btn btn-primary">See profile</a>
+                </div>
+            </div>
+         </div>
+   </div>
+   
  <!-- SCRIPTS -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
