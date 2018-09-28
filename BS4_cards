@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cards in Bootstrap 4</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ <!-- STYLE -->
+    <style>
+
+        .row { margin-top: 50px; }
+        .card img { width: 100%; }
+        .card-image { width: 300px; }
+
+    </style>
 </head>
 <body>
 <!-- classic card with blue header -->
