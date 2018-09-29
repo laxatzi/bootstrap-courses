@@ -10,21 +10,45 @@
 </head>
 <body>
 <!-- basic dropdown -->
-   <div class="row">
-      <div class="container">
-         <h2>Basic Dropdown</h2>
-         <p>A dropdown menu example</p>
-         <div class="dropdown">
-            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Dropdown Button</button>
-            <div class="dropdown-menu">
-               <a class="dropdown-item"  href="#">Link 1</a>
-               <a class="dropdown-item" href="#">Link 2</a>
-               <a class="dropdown-item" href="#">Link 3</a>
-            </div>
+<div class="row">
+   <div class="container">
+      <h2>Basic Dropdown</h2>
+      <p>A dropdown menu example</p>
+      <div class="dropdown">
+         <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Dropdown Button</button>
+         <div class="dropdown-menu">
+            <a class="dropdown-item"  href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
          </div>
       </div>
    </div>
-
+</div>
+<!-- dropdown classes -->
+<div class="row">
+   <div class="container">
+      <h2>Dropdown Classes</h2>
+      <p>The <code>.dropdown-divider</code> class is used to separate links inside the dropdown menu with a thin horizontal border</p>
+      <p>The <code>.dropdown-header</code> class is used to add headers inside the dropdown menu:</p>
+      <p>The <code>.active</code> class adds a blue background color to the active link.</p>
+      <p>The <code>.disabled</code> class disables a dropdown item.</p>
+      <div class="dropdown">
+         <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" type="button">
+           Dropdown Button
+         </button>
+         <div class="dropdown-menu">
+             <h4 class="dropdown-header">Web Stack</h4>
+                <a href="#" class="dropdown-item">HTML5</a>
+                <a href="#" class="dropdown-item">CSS3</a>
+                <a href="#" class="dropdown-item">JavaScript</a>
+                <div class="dropdown-divider"></div>
+                   <a href="#" class="dropdown-item active">Sketch </a>
+                   <a href="#" class="dropdown-item disabled">Photoshop</a>
+                </div>
+         </div>
+    </div>
+</div>
+      
 <!-- SCRIPTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
