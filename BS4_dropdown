@@ -103,7 +103,50 @@
      </div>
      </div>
  </div>
- 
+<!-- Nesting button groups -->
+ <div class="row">
+     <div class="container">
+        <h2>Nesting button groups</h2>
+        <p>We nest button groups to create dropdown menus:</p>
+         <p>On button to the left we have added split with <code>.dropdown-toggle-split</code>. </p>
+         <div class="btn-group float-right">
+            <button class="btn btn-primary"  type="button" >Python</button>
+            <button class="btn btn-primary"  type="button" >PHP</button>
+            <div class="btn-group">
+               <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" type="button">JavaScript</button>
+                <div class="dropdown-menu">
+                   <a href="#" class="dropdown-item">View.js</a>
+                   <a href="#" class="dropdown-item">React</a>
+                </div>
+            </div>
+         </div>
+         <div class="btn-group float-left">
+            <button class="btn btn-primary" type="button">Python</button>
+            <button class="btn btn-primary" type="button">PHP</button>
+            <div class="btn-group">
+               <button class="btn btn-primary" type="button">JavaScript</button>
+               <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" type="button"></button>
+               <div class="dropdown-menu">
+                  <a href="#" class="dropdown-item">View.js</a>
+                  <a href="#" class="dropdown-item">React</a>
+               </div>
+          </div>
+       </div>
+       <div class="btn-group-vertical vertical">
+          <button class="btn btn-success" type="button">Python</button>
+          <button class="btn btn-success" type="button">Nodejs</button>
+          <div class="btn-group">
+             <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">PHP</button>
+                 <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Laravel</a>
+                    <a href="#" class="dropdown-item">Sympony</a>
+                 </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+   
 <!-- SCRIPTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
