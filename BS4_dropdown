@@ -48,7 +48,35 @@
          </div>
     </div>
 </div>
-      
+ <!-- Dropdown posisioning -->
+<div class="row">
+    <div class="container posisioning">
+        <div class="col-md-12">
+        <h2>Dropdown position</h2>
+        <p>Create a "dropright" and a "dropleft" menu by adding the <code>.dropright</code> and <code> .dropleft</code> class to the dropdown element</p>
+        <div class="col-lg-6 float-right">
+            <div class="dropdown dropright">
+                <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown" type="button">Dropdown Right</button>
+                <div class="dropdown-menu ">
+                    <a href="#" class="dropdown-item ">Link 1</a>
+                    <a href="#" class="dropdown-item ">Link 2</a>
+                    <a href="#" class="dropdown-item ">Link 3</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 offset-md-3">
+            <div class="dropdown dropleft">
+                <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" type="button">Dropdown Left</button>
+                <div class="dropdown-menu ">
+                    <a href="#" class="dropdown-item">Link 1</a>
+                    <a href="#" class="dropdown-item">Link 2</a>
+                    <a href="#" class="dropdown-item">Link 3</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>      
 <!-- SCRIPTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
