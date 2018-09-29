@@ -9,7 +9,21 @@
 
 </head>
 <body>
-    
+<!-- basic dropdown -->
+   <div class="row">
+      <div class="container">
+         <h2>Basic Dropdown</h2>
+         <p>A dropdown menu example</p>
+         <div class="dropdown">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Dropdown Button</button>
+            <div class="dropdown-menu">
+               <a class="dropdown-item"  href="#">Link 1</a>
+               <a class="dropdown-item" href="#">Link 2</a>
+               <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+         </div>
+      </div>
+   </div>
 
 <!-- SCRIPTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
