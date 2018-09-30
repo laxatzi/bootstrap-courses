@@ -1,1 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nav menus</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
+</head>
+<body>
+   <div class="container-fluid">
+<!-- basic horizontal nav -->
+    <div class="row">
+       <div class="container">
+          <h2>Nav</h2>
+          <p>Basic Horizontal menu:</p>
+           <ul class="nav justify-content-center">
+              <li class="nav-item"><a class="nav-link" href="#"> Link1</a></li>
+              <li class="nav-item"><a class="nav-link" href="#"> Link2</a></li>
+              <li class="nav-item"><a class="nav-link" href="#"> Link3</a></li>
+              <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+           </ul>
+       </div>
+    </div>
+<!-- vertical nav -->
+   <div class="row">
+      <div class="container">
+        <h3>Vertical nav</h3>
+        <p>Add the <code> .flex-column </code>class to create a vertical nav:</p>
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#">Link1</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Link2</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Link3</a></li>
+        </ul>
+      </div>
+   </div>
+ <!-- Tabs -->
+   <div class="row">
+        <div class="container">
+            <h3>Tabs</h3>
+            <p>Turn the nav menu into navigation tabs with the <code>.nav-tabs</code> class.
+                 Add the <code>.active</code> class to the active/current link. 
+                 If you want the tabs to be togglable, see the last example on this page.</p>
+            <ul class="nav nav-tabs"> 
+                <li class="nav-item"><a class="nav-link active" href="#">Link 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link 3</a></li>
+            </ul>
+        </div>
+    </div>
+<!-- Pills -->
+    <div class="row">
+        <div class="container">
+            <h3>Pills</h3>
+            <p>Turn the nav menu into navigation pills with the <code>.nav-pills</code> class.
+                 Add the <code>.active</code> class to the active/current link. </p>
+            <ul class="nav nav-pills"> 
+                <li class="nav-item"><a class="nav-link active" href="#">Link 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link 3</a></li>
+            </ul>
+        </div>
+    </div>
+ <!-- Justify tabs/pills -->
+    <div class="row">
+        <div class="container">
+            <h3>Justify pills and tabs</h3>
+            <p>Justify the tabs/pills with the <code>.nav-justified </code> class (equal width):</p>
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item"> <a class="nav-link active" href="#">Link</a></li>
+                <li class="nav-item"><a class="nav-link"  href="#">Link</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#">Link</a></li>
+            </ul>
+        </div>
+    </div>
+<!-- Pills with dropdown *(It's the same with Tabs) -->
+   <div class="row">
+      <div class="container">
+         <h3>Pills with Dropdown</h3>
+          <p>Example of a pill menu with dropdown:</p>
+          <ul class="nav nav-pills">
+             <li class="nav-item"> <a class="nav-link"  href="#">Link</a></li>
+             <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+                <div class="dropdown-menu">
+                   <a href="#" class="dropdown-item" > Link</a>
+                   <a href="#" class="dropdown-item" > Link</a>
+                </div>
+             </li>
+             <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          </ul>
+      </div>
+   </div>  
+<!-- Togglable dynamic pills some applies to Tabs -->
+   <div class="row">
+      <div class="container">
+         <h3>Togglable dynamic pills</h3>
+         <p>To make the tabs toggleable, add the <code>data-toggle="tab"</code> attribute to each link. Then add a <code></code>.tab-pane</code> class with a unique ID for every tab and wrap them inside a <code>div</code> element with class <code>.tab-content</code> .</p>
+         <p>If you want the tabs to fade in and out when clicking on them, add the <code>.fade</code> class to <code>.tab-pane</code> :</p>
+<!-- Nav tabs -->
+         <ul class="nav nav-pills"> 
+            <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#link1">LInk 1</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#link2">LInk 2</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#link3">LInk 3</a></li>
+         </ul>
+<!-- tab panes -->
+         <div class="tab-content">
+            <div class="tab-pane container active" id="link1"> 
+               <h4>Link 1</h4>
+               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+             </div>
+             <div class="tab-pane container fade" id="link2"> 
+                <h4>Link 2</h4>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+             </div>
+             <div class="tab-pane container fade" id="link3"> 
+                <h4>Link 3</h4>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+            </div>
+         </div>
+     </div>
+
+    </div> 
+<!-- lorem ipsum for helping to showcase the menus -->
+   <div class="row">
+      <div class="container">
+         <h3>Lorem Ipsum</h3>
+         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+             in culpa qui officia deserunt mollit anim id est laborum."
+         </p>
+      </div>
+    </div>
+    
+</div>
+<!-- srcripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
