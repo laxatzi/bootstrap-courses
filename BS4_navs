@@ -9,8 +9,23 @@
 
 </head>
 <body>
-    
+   <div class="container-fluid">
+<!-- basic horizontal nav -->
+    <div class="row">
+       <div class="container">
+          <h2>Nav</h2>
+          <p>Basic Horizontal menu:</p>
+           <ul class="nav justify-content-center">
+              <li class="nav-item"><a class="nav-link" href="#"> Link1</a></li>
+              <li class="nav-item"><a class="nav-link" href="#"> Link2</a></li>
+              <li class="nav-item"><a class="nav-link" href="#"> Link3</a></li>
+              <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+           </ul>
+       </div>
+    </div>
 
+    
+   </div>
 <!-- srcripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
