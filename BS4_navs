@@ -35,7 +35,20 @@
         </ul>
       </div>
    </div>
-    
+ <!-- Tabs -->
+   <div class="row">
+        <div class="container">
+            <h3>Tabs</h3>
+            <p>Turn the nav menu into navigation tabs with the <code>.nav-tabs</code> class.
+                 Add the <code>.active</code> class to the active/current link. 
+                 If you want the tabs to be togglable, see the last example on this page.</p>
+            <ul class="nav nav-tabs"> 
+                <li class="nav-item"><a class="nav-link active" href="#">Link 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link 3</a></li>
+            </ul>
+        </div>
+    </div>
    </div>
 <!-- srcripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
