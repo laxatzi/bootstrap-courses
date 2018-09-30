@@ -62,8 +62,40 @@
             </ul>
         </div>
     </div>
-    
-   </div>
+ <!-- Justify tabs/pills -->
+    <div class="row">
+        <div class="container">
+            <h3>Justify pills and tabs</h3>
+            <p>Justify the tabs/pills with the <code>.nav-justified </code> class (equal width):</p>
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item"> <a class="nav-link active" href="#">Link</a></li>
+                <li class="nav-item"><a class="nav-link"  href="#">Link</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#">Link</a></li>
+            </ul>
+        </div>
+    </div>
+<!-- Pills with dropdown *(It's the same with Tabs) -->
+    <div class="row">
+       <div class="container">
+          <h3>Pills with Dropdown</h3>
+          <p>Example of a pill menu with dropdown:</p>
+          <ul class="nav nav-pills">
+             <li class="nav-item"> <a class="nav-link"  href="#">Link</a></li>
+             <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+                <div class="dropdown-menu">
+                   <a href="#" class="dropdown-item" > Link</a>
+                   <a href="#" class="dropdown-item" > Link</a>
+                </div>
+             </li>
+             <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          </ul>
+      </div>
+   </div>  
+   
+   
+</div>
 <!-- srcripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
