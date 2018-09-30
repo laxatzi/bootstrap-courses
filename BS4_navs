@@ -75,9 +75,9 @@
         </div>
     </div>
 <!-- Pills with dropdown *(It's the same with Tabs) -->
-    <div class="row">
-       <div class="container">
-          <h3>Pills with Dropdown</h3>
+   <div class="row">
+      <div class="container">
+         <h3>Pills with Dropdown</h3>
           <p>Example of a pill menu with dropdown:</p>
           <ul class="nav nav-pills">
              <li class="nav-item"> <a class="nav-link"  href="#">Link</a></li>
@@ -93,7 +93,45 @@
           </ul>
       </div>
    </div>  
-   
+<!-- Togglable dynamic pills some applies to Tabs -->
+   <div class="row">
+      <div class="container">
+         <h3>Togglable dynamic pills</h3>
+         <p>To make the tabs toggleable, add the <code>data-toggle="tab"</code> attribute to each link. Then add a <code></code>.tab-pane</code> class with a unique ID for every tab and wrap them inside a <code>div</code> element with class <code>.tab-content</code> .</p>
+         <p>If you want the tabs to fade in and out when clicking on them, add the <code>.fade</code> class to <code>.tab-pane</code> :</p>
+<!-- Nav tabs -->
+         <ul class="nav nav-pills"> 
+            <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#link1">LInk 1</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#link2">LInk 2</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#link3">LInk 3</a></li>
+         </ul>
+<!-- tab panes -->
+         <div class="tab-content">
+            <div class="tab-pane container active" id="link1"> 
+               <h4>Link 1</h4>
+               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+             </div>
+             <div class="tab-pane container fade" id="link2"> 
+                <h4>Link 2</h4>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+             </div>
+             <div class="tab-pane container fade" id="link3"> 
+                <h4>Link 3</h4>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+            </div>
+         </div>
+     </div>
+
+    </div>   
    
 </div>
 <!-- srcripts -->
