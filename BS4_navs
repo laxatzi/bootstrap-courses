@@ -49,6 +49,20 @@
             </ul>
         </div>
     </div>
+<!-- Pills -->
+    <div class="row">
+        <div class="container">
+            <h3>Pills</h3>
+            <p>Turn the nav menu into navigation pills with the <code>.nav-pills</code> class.
+                 Add the <code>.active</code> class to the active/current link. </p>
+            <ul class="nav nav-pills"> 
+                <li class="nav-item"><a class="nav-link active" href="#">Link 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link 3</a></li>
+            </ul>
+        </div>
+    </div>
+    
    </div>
 <!-- srcripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
