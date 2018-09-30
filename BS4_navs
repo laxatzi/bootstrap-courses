@@ -23,7 +23,18 @@
            </ul>
        </div>
     </div>
-
+<!-- vertical nav -->
+   <div class="row">
+      <div class="container">
+        <h3>Vertical nav</h3>
+        <p>Add the <code> .flex-column </code>class to create a vertical nav:</p>
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#">Link1</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Link2</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Link3</a></li>
+        </ul>
+      </div>
+   </div>
     
    </div>
 <!-- srcripts -->
