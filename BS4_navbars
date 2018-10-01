@@ -20,7 +20,7 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
     <!-- brand -->
        <a href="#" class="navbar-brand">Logo</a>
     <!-- add toggler -->
