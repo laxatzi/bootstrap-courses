@@ -14,22 +14,64 @@
         .navbar-brand {
             font-weight: bold;
         }
+        .main {
+            margin-top: 100px;
+        }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-success">
-       <a href="#" class="navbar-brand text-white">Logo</a>
-       <ul class="navbar-nav"> 
-          <li class="nav-item"><a class="nav-link text-white" href="#">Link 1</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#">Link 2</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#">Link 3</a></li>
-       </ul>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <!-- brand -->
+       <a href="#" class="navbar-brand">Logo</a>
+    <!-- add toggler -->
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+    <!-- navbar links -->
+       <div class="collapse navbar-collapse" id="collapsible">
+          <ul class="navbar-nav"> 
+             <li class="nav-item"><a class="nav-link" href="#">Link 1</a></li>
+             <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
+     <!-- Dropdown -->
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown link</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Droped link 1</a>
+                    <a class="dropdown-item" href="#">Droped link 2</a>
+                  </div>
+               </li>          
+            </ul>
+       </div>
     </nav>
-    <div class="container-fluid">
+    <div class="container-fluid main">
         <div class="row">
             <div class="col-sm-8 offset-sm-2">
-                <h3>Basic Navbar Example </h3>
+                <h3 class="display-4">Basic Navbar Example </h3>
                 <p>The <code>.navbar-expand-xl|lg|md|sm</code> determines when the navbar should stack vertically. In order to create a <strong>Vertical navbar</strong>, just remove the <code>navbar-expand-*</code> class.</p>
+            </div>
+            <div class="col-sm-8 offset-sm-2 lorem">
+                <h3>Lorem ipsum paragraphs to help showcasing the <code>.fixed-top</code> class.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                       mollit anim id est laborum
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                       mollit anim id est laborum
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                       mollit anim id est laborum
+                </p>
             </div>
         </div>
     </div>   
