@@ -21,10 +21,12 @@
                   <li class="nav-item"><a class="nav-link text-white" href="#">Link 3</a></li>
               </ul>
     </nav>
-    <div>
-        <div class="container-fluid">
-            <h3>Basic Navbar Example </h3>
-            <p>The <code>.navbar-expand-xl|lg|md|sm</code> determines when the navbar should stack vertically.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <h3>Basic Navbar Example </h3>
+                <p>The <code>.navbar-expand-xl|lg|md|sm</code> determines when the navbar should stack vertically. In order to create a <strong>Vertical navbar</strong>, just remove the <code>navbar-expand-*</code> class.</p>
+            </div>
         </div>
     </div>   
     
