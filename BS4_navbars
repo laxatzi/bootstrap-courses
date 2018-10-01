@@ -14,6 +14,9 @@
         .navbar-brand {
             font-weight: bold;
         }
+        .main {
+            margin-top: 100px;
+        }
     </style>
 </head>
 <body>
@@ -40,11 +43,35 @@
             </ul>
        </div>
     </nav>
-    <div class="container-fluid">
+    <div class="container-fluid main">
         <div class="row">
             <div class="col-sm-8 offset-sm-2">
-                <h3>Basic Navbar Example </h3>
+                <h3 class="display-4">Basic Navbar Example </h3>
                 <p>The <code>.navbar-expand-xl|lg|md|sm</code> determines when the navbar should stack vertically. In order to create a <strong>Vertical navbar</strong>, just remove the <code>navbar-expand-*</code> class.</p>
+            </div>
+            <div class="col-sm-8 offset-sm-2 lorem">
+                <h3>Lorem ipsum paragraphs to help showcasing the <code>.fixed-top</code> class.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                       mollit anim id est laborum
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                       mollit anim id est laborum
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                       mollit anim id est laborum
+                </p>
             </div>
         </div>
     </div>   
