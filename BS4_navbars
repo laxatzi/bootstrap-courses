@@ -11,6 +11,9 @@
         h3 {
             margin: 20px auto;
         }
+        .navbar-brand {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
