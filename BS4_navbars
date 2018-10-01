@@ -17,12 +17,14 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-success">
-       <a href="#" class="navbar-brand text-white">Logo</a>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- brand -->
+       <a href="#" class="navbar-brand">Logo</a>
+    <!-- navbar links -->
        <ul class="navbar-nav"> 
-          <li class="nav-item"><a class="nav-link text-white" href="#">Link 1</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#">Link 2</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#">Link 3</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link 1</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link 3</a></li>
        </ul>
     </nav>
     <div class="container-fluid">
