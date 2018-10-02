@@ -92,9 +92,32 @@
         </div>
         <p><span class="stand-out">&#42;</span> Use the <code>.form-check-inline</code> class if you want the checkboxes to appear on the same line.</p>
       </div>
-   </div>
-</div>
+   </div> <!-- end of row -->
+ <!-- radio buttons -->
+  <div class="row">
+     <div class="col-sm-8">
+        <h3>Radio Buttons</h3>
+        <h4>What is the most profitable marketing channel for your biz?</h4>
+        <small>Choose only one</small>
+        <div class="form-check">
+            <label for="seo" class="form-check-label">
+                <input type="radio" class="form-check-input" id="seo"> SEO</label>
+        </div>
+        <div class="form-check">
+            <label for="social" class="form-check-label">
+                <input type="radio" class="form-check-input" id="social"> Social Media
+            </label>
+        </div>
+        <div class="form-check">
+            <label for="ppc" class="form-check-label" > 
+                <input type="radio" class="form-check-input" id="ppc"> Pay Per Click
+            </label>
+        </div>
+      </div>
+   </div>   <!-- end of row --> 
    
+</div>
+  
 <!-- scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
