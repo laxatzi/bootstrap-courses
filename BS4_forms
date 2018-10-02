@@ -9,6 +9,7 @@
  <!-- style -->
     <style>
          .row { margin-top: 50px; }
+         .stand-out { color: rgb(255,0,0); }
     </style>
 </head>
 <body>
@@ -67,7 +68,7 @@
            <textarea  id="txtarea"  rows="7" class="form-control" placeholder="leave your message..."></textarea>
         </div>
      </div>
-  </div>
+  </div> <!-- end of row -->
 
 </div>
    
