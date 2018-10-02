@@ -69,7 +69,30 @@
         </div>
      </div>
   </div> <!-- end of row -->
-
+  <div class="row">
+     <div class="col-sm-8">
+        <h3>Bootstrap Checkboxes</h3>
+        <h4>Your technologies:</h4>
+        <small>Check all that applies</small>
+        <div class="form-check">
+            <label  class="form-check-label" > 
+            <input type="checkbox" class="form-check-input" > jQuery</label>
+        </div>
+        <div class="form-check">
+            <label  class="form-check-label">
+            <input type="checkbox" class="form-check-input" > HTML</label>
+        </div>
+        <div class="form-check">
+            <label  class="form-check-label">
+            <input type="checkbox" class="form-check-input" > Css</label>
+        </div>
+        <div class="form-check">
+            <label  class="form-check-label">
+            <input type="checkbox" class="form-check-input" > React</label>
+        </div>
+        <p><span class="stand-out">&#42;</span> Use the <code>.form-check-inline</code> class if you want the checkboxes to appear on the same line.</p>
+      </div>
+   </div>
 </div>
    
 <!-- scripts -->
