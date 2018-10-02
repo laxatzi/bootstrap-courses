@@ -113,6 +113,7 @@
                 <input type="radio" class="form-check-input" id="ppc"> Pay Per Click
             </label>
         </div>
+        <p><span class="stand-out">&#42;</span> As with checkboxes, use the <code>.form-check-inline</code> class if you want the radio buttons to appear on the same line: </p>
       </div>
    </div>   <!-- end of row --> 
    
