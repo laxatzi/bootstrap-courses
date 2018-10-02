@@ -59,6 +59,15 @@
       </div>
   </div> <!-- end of row -->
   <!-- Textarea form -->
+  <div class="row">
+     <div class="col-sm-6">
+        <h3>Textarea form</h3>
+        <div class="form-group">
+           <label for="txtarea">Comment:</label>
+           <textarea  id="txtarea"  rows="7" class="form-control" placeholder="leave your message..."></textarea>
+        </div>
+     </div>
+  </div>
 
 </div>
    
