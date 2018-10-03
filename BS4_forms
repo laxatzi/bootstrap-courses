@@ -131,7 +131,7 @@
         <form action="/action.php">
            <div class="form-group">
               <label for="select">Select list:</label>
-              <select  id="select" class="form-control">
+              <select  id="select" class="form-control form-control-sm">
                  <option value="one">1</option>
                  <option value="two">2</option>
                  <option value="three">3</option>
