@@ -95,12 +95,38 @@
               <label  class="form-check-label">
               <input type="checkbox" class="form-check-input" > React</label>
            </div>
+           <button class="btn btn-primary mt-2" type="submint">Submit</button>
         </form>
         <p><span class="stand-out">&#42;</span> Use the <code>.form-check-inline</code> class if you want the checkboxes to appear on the same line.</p>
       </div>
    </div> <!-- end of row -->
    <!-- custom checkbox -->
-   
+   <div class="row">
+      <div class="col-sm-8">
+         <h3>Custom Checkbox</h3>
+         <p>To create a custom checkbox, wrap a container element, like <code>div</code>, with a class of <code>.custom-control</code> and <code>.custom-checkbox</code> around the checkbox. Then add the <code>.custom-control-input</code> to the input with <em>type="checkbox"</em>.</p>
+         <p>Tip: If you use labels for accompanying text, add the <code>.custom-control-label</code> class to it. Note that the value of the for attribute should match the id of the checkbox:</p>
+         <h4>What is js frameworks do you use? <small>Choose all that apply.</small></h4>
+         <form action="/action.php">
+            <div class="custom-control custom-checkbox">
+               <input type="checkbox" class="custom-control-input" id="react"> 
+               <label class="custom-control-label" for="react"> ReactJs
+                </label>
+            </div>
+            <div class="custom-control custom-checkbox">
+               <input type="checkbox" id="angular" class="custom-control-input"> 
+               <label class="custom-control-label" for="angular"> AngularJs
+                </label>
+            </div>
+            <div class="custom-control custom-checkbox">
+               <input type="checkbox" id="vue" class="custom-control-input"> 
+                <label for="vue" class="custom-control-label"> Vue.js
+                </label>
+            </div>
+            <button class="btn btn-primary mt-2" type="submint">Submit</button>
+        </form>
+    </div>
+ </div> <!-- end of row -->   
 <!-- RADIO BUTTONS -->
 <!-- default radio buttons -->
   <div class="row">
@@ -111,24 +137,54 @@
         <form action="/action.php">
            <div class="form-check">
                <label for="seo" class="form-check-label">
-               <input type="radio" class="form-check-input" id="seo"> SEO</label>
+               <input type="radio" class="form-check-input" id="seo" name="marketing"> SEO</label>
            </div>
            <div class="form-check">
               <label for="social" class="form-check-label">
-                <input type="radio" class="form-check-input" id="social"> Social Media
+                <input type="radio" class="form-check-input" id="social" name="marketing"> Social Media
               </label>
            </div>
            <div class="form-check">
               <label for="ppc" class="form-check-label" > 
-                <input type="radio" class="form-check-input" id="ppc"> Pay Per Click
+                <input type="radio" class="form-check-input" id="ppc" name="marketing"> Pay Per Click
               </label>
            </div>
+           <button class="btn btn-primary mt-2" type="submint">Submit</button>
         </form>
         <p><span class="stand-out">&#42;</span> As with checkboxes, use the <code>.form-check-inline</code> class if you want the radio buttons to appear on the same line: </p>
       </div>
    </div>   <!-- end of row --> 
    <!-- custom radio buttons -->
-
+     <!-- custom radio buttons -->
+   <div class="row">
+       <div class="col-sm-8">
+           <h3>Custom Radio Buttons</h3>
+           <p>To create a custom radio button, wrap a container element, like <code>div</code>, with a class of <code>.custom-control</code> and <code>.custom-radio</code> around the radio button. Then add the <code>.custom-control-input</code> to the radio button.</p>
+           <p><strong>Tip:</strong> If you use labels for accompanying text, add the .custom-control-label class to it. Note that the value of the for attribute should match the id of the radio:</p>
+           <h4>Choose your favorite text editor. <small>You may choose only one.</small> </h4>
+           <form action="/action.php">
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="vsc" name="editors">
+                <label for="vsc" class="custom-control-label">
+                     Visual Studio Code
+                </label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="atom" name="editors">
+                <label for="atom" class="custom-control-label" > 
+                     Atom
+                </label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="sublime" name="editors">
+                <label for="sublime" class="custom-control-label" >
+                     Sublime Text
+                </label>
+              </div>
+              <button class="btn btn-primary mt-2" type="submint">Submit</button>
+            </form>
+       </div>
+   </div> 
    <!-- Bootstrap SELECT LISTS -->
    <!-- select list default -->
    <!-- Bootstrap Select List -->
@@ -148,11 +204,26 @@
                  <option value="five">5</option>
               </select>
             </div>
+            <button class="btn btn-primary mt-2" type="submint">Submit</button>
         </form>
       </div>
    </div> <!-- end of row-->
    <!-- custom select list -->
-   
+   <div class="row">
+     <div class="col-sm-8">
+        <h3>Custom Select Menu</h3>
+        <p>To create a custom select menu, add the <code>.custom-select</code> class to the <code>select</code> element:</p>
+        <form action="/action.php">
+           <select class="custom-select" name="cars"> 
+              <option value="header" selected>Choose a car</option>
+              <option value="fiat">FIAT</option>
+              <option value="opel">OPEL</option>
+              <option value="scoda">SCODA</option>
+           </select>
+           <button class="btn btn-primary mt-2" type="submint">Submit</button>
+        </form>
+     </div>
+   </div>
    <!-- lorem ipsum for helping to showcase the menus -->
     <div class="row">
         <div class="container">
