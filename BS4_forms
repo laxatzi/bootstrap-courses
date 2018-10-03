@@ -71,6 +71,8 @@
         </form>
      </div>
   </div> <!-- end of row -->
+<!-- CHECKBOXES -->
+<!-- default checkbox -->
   <div class="row">
      <div class="col-sm-8">
         <h3>Bootstrap Checkboxes</h3>
@@ -97,7 +99,10 @@
         <p><span class="stand-out">&#42;</span> Use the <code>.form-check-inline</code> class if you want the checkboxes to appear on the same line.</p>
       </div>
    </div> <!-- end of row -->
- <!-- radio buttons -->
+   <!-- custom checkbox -->
+   
+<!-- RADIO BUTTONS -->
+<!-- default radio buttons -->
   <div class="row">
      <div class="col-sm-8">
         <h3>Radio Buttons</h3>
@@ -122,6 +127,10 @@
         <p><span class="stand-out">&#42;</span> As with checkboxes, use the <code>.form-check-inline</code> class if you want the radio buttons to appear on the same line: </p>
       </div>
    </div>   <!-- end of row --> 
+   <!-- custom radio buttons -->
+
+   <!-- Bootstrap SELECT LISTS -->
+   <!-- select list default -->
    <!-- Bootstrap Select List -->
    <div class="row">
       <div class="col-6-sm">
@@ -141,7 +150,9 @@
             </div>
         </form>
       </div>
-   </div>
+   </div> <!-- end of row-->
+   <!-- custom select list -->
+   
    <!-- lorem ipsum for helping to showcase the menus -->
     <div class="row">
         <div class="container">
