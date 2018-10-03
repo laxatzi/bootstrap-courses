@@ -223,7 +223,25 @@
            <button class="btn btn-primary mt-2" type="submint">Submit</button>
         </form>
      </div>
-   </div>
+   </div> <!-- end of row -->
+    <!-- FILES -->
+    <div class="row">
+        <div class="col-sm-8">
+           <h3>Form Control File</h3>
+           <p>To create a custom file upload, wrap a container element with a class of <code>.custom-file</code> around the input with <em>type="file"</em>. Then add the <code>.custom-control-input</code> to it:</p>
+           <form action="/action.php">
+              <h4>Default file:</h4>
+              <div class="form-group">
+                 <input type="file" name="filename1" class="form-control-file border">
+              </div>
+              <h4>Custom file:</h4>
+              <div class="custom-file">
+                <input type="file" id="file" class="custom-file-input">
+                <label for="file" class="custom-file-label"> Choose file</label>
+              </div>
+           </form>
+        </div>
+    </div>
    <!-- lorem ipsum for helping to showcase the menus -->
     <div class="row">
         <div class="container">
