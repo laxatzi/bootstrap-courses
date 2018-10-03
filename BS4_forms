@@ -105,7 +105,7 @@
          <h3>Custom Checkbox</h3>
          <p>To create a custom checkbox, wrap a container element, like <code>div</code>, with a class of <code>.custom-control</code> and <code>.custom-checkbox</code> around the checkbox. Then add the <code>.custom-control-input</code> to the input with <em>type="checkbox"</em>.</p>
          <p>Tip: If you use labels for accompanying text, add the <code>.custom-control-label</code> class to it. Note that the value of the for attribute should match the id of the checkbox:</p>
-         <form action="action.php">
+         <form action="/action.php">
             <div class="custom-control custom-control-checkbox">
                 <label class="custom-control-label" for="react">
                     <input type="checkbox" class="custom-control-input" id="react"> ReactJs
