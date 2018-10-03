@@ -95,6 +95,7 @@
               <label  class="form-check-label">
               <input type="checkbox" class="form-check-input" > React</label>
            </div>
+           <button class="btn btn-primary mt-2" type="submint">Submit</button>
         </form>
         <p><span class="stand-out">&#42;</span> Use the <code>.form-check-inline</code> class if you want the checkboxes to appear on the same line.</p>
       </div>
@@ -122,6 +123,7 @@
                 <label for="vue" class="custom-control-label"> Vue.js
                 </label>
             </div>
+            <button class="btn btn-primary mt-2" type="submint">Submit</button>
         </form>
     </div>
  </div> <!-- end of row -->   
@@ -147,6 +149,7 @@
                 <input type="radio" class="form-check-input" id="ppc" name="marketing"> Pay Per Click
               </label>
            </div>
+           <button class="btn btn-primary mt-2" type="submint">Submit</button>
         </form>
         <p><span class="stand-out">&#42;</span> As with checkboxes, use the <code>.form-check-inline</code> class if you want the radio buttons to appear on the same line: </p>
       </div>
@@ -178,6 +181,7 @@
                      Sublime Text
                 </label>
               </div>
+              <button class="btn btn-primary mt-2" type="submint">Submit</button>
             </form>
        </div>
    </div> 
@@ -200,6 +204,7 @@
                  <option value="five">5</option>
               </select>
             </div>
+            <button class="btn btn-primary mt-2" type="submint">Submit</button>
         </form>
       </div>
    </div> <!-- end of row-->
@@ -215,6 +220,7 @@
               <option value="opel">OPEL</option>
               <option value="scoda">SCODA</option>
            </select>
+           <button class="btn btn-primary mt-2" type="submint">Submit</button>
         </form>
      </div>
    </div>
