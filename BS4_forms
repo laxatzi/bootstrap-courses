@@ -204,7 +204,20 @@
       </div>
    </div> <!-- end of row-->
    <!-- custom select list -->
-   
+   <div class="row">
+     <div class="col-sm-8">
+        <h3>Custom Select Menu</h3>
+        <p>To create a custom select menu, add the <code>.custom-select</code> class to the <code>select</code> element:</p>
+        <form action="/action.php">
+           <select class="custom-select" name="cars"> 
+              <option value="header" selected>Choose a car</option>
+              <option value="fiat">FIAT</option>
+              <option value="opel">OPEL</option>
+              <option value="scoda">SCODA</option>
+           </select>
+        </form>
+     </div>
+   </div>
    <!-- lorem ipsum for helping to showcase the menus -->
     <div class="row">
         <div class="container">
