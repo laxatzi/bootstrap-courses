@@ -223,7 +223,7 @@
            <button class="btn btn-primary mt-2" type="submint">Submit</button>
         </form>
      </div>
-   </div>
+   </div> <!-- end of row -->
     <!-- FILES -->
     <div class="row">
         <div class="col-sm-8">
