@@ -152,7 +152,35 @@
       </div>
    </div>   <!-- end of row --> 
    <!-- custom radio buttons -->
-
+     <!-- custom radio buttons -->
+   <div class="row">
+       <div class="col-sm-8">
+           <h3>Custom Radio Buttons</h3>
+           <p>To create a custom radio button, wrap a container element, like <code>div</code>, with a class of <code>.custom-control</code> and <code>.custom-radio</code> around the radio button. Then add the <code>.custom-control-input</code> to the radio button.</p>
+           <p><strong>Tip:</strong> If you use labels for accompanying text, add the .custom-control-label class to it. Note that the value of the for attribute should match the id of the radio:</p>
+           <h4>Choose your favorite text editor. <small>You may choose only one.</small> </h4>
+           <form action="/action.php">
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="vsc" name="editors">
+                <label for="vsc" class="custom-control-label">
+                     Visual Studio Code
+                </label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="atom" name="editors">
+                <label for="atom" class="custom-control-label" > 
+                     Atom
+                </label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="sublime" name="editors">
+                <label for="sublime" class="custom-control-label" >
+                     Sublime Text
+                </label>
+              </div>
+            </form>
+       </div>
+   </div> 
    <!-- Bootstrap SELECT LISTS -->
    <!-- select list default -->
    <!-- Bootstrap Select List -->
