@@ -122,6 +122,26 @@
         <p><span class="stand-out">&#42;</span> As with checkboxes, use the <code>.form-check-inline</code> class if you want the radio buttons to appear on the same line: </p>
       </div>
    </div>   <!-- end of row --> 
+   <!-- Bootstrap Select List -->
+   <div class="row">
+      <div class="col-6-sm">
+        <h3>Bootstrap Select List</h3>
+        <p>Select lists are used if you want to allow the user to pick from multiple options.</p>
+        <p>The following example contains a dropdown list (select list):</p>
+        <form action="/action.php">
+           <div class="form-group">
+              <label for="select">Select list:</label>
+              <select  id="select" class="form-control">
+                 <option value="one">1</option>
+                 <option value="two">2</option>
+                 <option value="three">3</option>
+                 <option value="four">4</option>
+                 <option value="five">5</option>
+              </select>
+            </div>
+        </form>
+      </div>
+   </div>
    <!-- lorem ipsum for helping to showcase the menus -->
     <div class="row">
         <div class="container">
