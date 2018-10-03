@@ -135,16 +135,16 @@
         <form action="/action.php">
            <div class="form-check">
                <label for="seo" class="form-check-label">
-               <input type="radio" class="form-check-input" id="seo"> SEO</label>
+               <input type="radio" class="form-check-input" id="seo" name="marketing"> SEO</label>
            </div>
            <div class="form-check">
               <label for="social" class="form-check-label">
-                <input type="radio" class="form-check-input" id="social"> Social Media
+                <input type="radio" class="form-check-input" id="social" name="marketing"> Social Media
               </label>
            </div>
            <div class="form-check">
               <label for="ppc" class="form-check-label" > 
-                <input type="radio" class="form-check-input" id="ppc"> Pay Per Click
+                <input type="radio" class="form-check-input" id="ppc" name="marketing"> Pay Per Click
               </label>
            </div>
         </form>
