@@ -63,10 +63,12 @@
   <div class="row">
      <div class="col-sm-6">
         <h3>Textarea form</h3>
-        <div class="form-group">
-           <label for="txtarea">Comment:</label>
-           <textarea  id="txtarea"  rows="7" class="form-control" placeholder="leave your message..."></textarea>
-        </div>
+        <form action="/action.php">
+           <div class="form-group">
+              <label for="txtarea">Comment:</label>
+              <textarea  id="txtarea"  rows="7" class="form-control" placeholder="leave your message..."></textarea>
+           </div>
+        </form>
      </div>
   </div> <!-- end of row -->
   <div class="row">
@@ -74,22 +76,24 @@
         <h3>Bootstrap Checkboxes</h3>
         <h4>Your technologies:</h4>
         <small>Check all that applies</small>
-        <div class="form-check">
-            <label  class="form-check-label" > 
-            <input type="checkbox" class="form-check-input" > jQuery</label>
-        </div>
-        <div class="form-check">
-            <label  class="form-check-label">
-            <input type="checkbox" class="form-check-input" > HTML</label>
-        </div>
-        <div class="form-check">
-            <label  class="form-check-label">
-            <input type="checkbox" class="form-check-input" > Css</label>
-        </div>
-        <div class="form-check">
-            <label  class="form-check-label">
-            <input type="checkbox" class="form-check-input" > React</label>
-        </div>
+        <form action="/action.php">
+           <div class="form-check">
+               <label  class="form-check-label" > 
+               <input type="checkbox" class="form-check-input" > jQuery</label>
+           </div>
+           <div class="form-check">
+              <label  class="form-check-label">
+              <input type="checkbox" class="form-check-input" > HTML</label>
+           </div>
+           <div class="form-check">
+              <label  class="form-check-label">
+              <input type="checkbox" class="form-check-input" > Css</label>
+           </div>
+           <div class="form-check">
+              <label  class="form-check-label">
+              <input type="checkbox" class="form-check-input" > React</label>
+           </div>
+        </form>
         <p><span class="stand-out">&#42;</span> Use the <code>.form-check-inline</code> class if you want the checkboxes to appear on the same line.</p>
       </div>
    </div> <!-- end of row -->
@@ -99,20 +103,22 @@
         <h3>Radio Buttons</h3>
         <h4>What is the most profitable marketing channel for your biz?</h4>
         <small>Choose only one</small>
-        <div class="form-check">
-            <label for="seo" class="form-check-label">
-                <input type="radio" class="form-check-input" id="seo"> SEO</label>
-        </div>
-        <div class="form-check">
-            <label for="social" class="form-check-label">
+        <form action="/action.php">
+           <div class="form-check">
+               <label for="seo" class="form-check-label">
+               <input type="radio" class="form-check-input" id="seo"> SEO</label>
+           </div>
+           <div class="form-check">
+              <label for="social" class="form-check-label">
                 <input type="radio" class="form-check-input" id="social"> Social Media
-            </label>
-        </div>
-        <div class="form-check">
-            <label for="ppc" class="form-check-label" > 
+              </label>
+           </div>
+           <div class="form-check">
+              <label for="ppc" class="form-check-label" > 
                 <input type="radio" class="form-check-input" id="ppc"> Pay Per Click
-            </label>
-        </div>
+              </label>
+           </div>
+        </form>
         <p><span class="stand-out">&#42;</span> As with checkboxes, use the <code>.form-check-inline</code> class if you want the radio buttons to appear on the same line: </p>
       </div>
    </div>   <!-- end of row --> 
