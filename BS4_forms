@@ -133,7 +133,7 @@
    <!-- select list default -->
    <!-- Bootstrap Select List -->
    <div class="row">
-      <div class="col-6-sm">
+      <div class="col-sm-8">
         <h3>Bootstrap Select List</h3>
         <p>Select lists are used if you want to allow the user to pick from multiple options.</p>
         <p>The following example contains a dropdown list (select list):</p>
