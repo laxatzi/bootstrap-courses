@@ -105,18 +105,19 @@
          <h3>Custom Checkbox</h3>
          <p>To create a custom checkbox, wrap a container element, like <code>div</code>, with a class of <code>.custom-control</code> and <code>.custom-checkbox</code> around the checkbox. Then add the <code>.custom-control-input</code> to the input with <em>type="checkbox"</em>.</p>
          <p>Tip: If you use labels for accompanying text, add the <code>.custom-control-label</code> class to it. Note that the value of the for attribute should match the id of the checkbox:</p>
+         <h4>What is js frameworks do you use? <small>Choose all that apply.</small></h4>
          <form action="/action.php">
-            <div class="custom-control custom-control-checkbox">
+            <div class="custom-control custom-checkbox">
                 <label class="custom-control-label" for="react">
                     <input type="checkbox" class="custom-control-input" id="react"> ReactJs
                 </label>
             </div>
-            <div class="custom-control custom-control-checkbox">
+            <div class="custom-control custom-checkbox">
                 <label class="custom-control-label" for="angular">
                     <input type="checkbox" id="angular" class="custom-control-input"> AngularJs
                 </label>
             </div>
-            <div class="custom-control custom-control-checkbox">
+            <div class="custom-control custom-checkbox">
                 <label for="vue" class="custom-control-label">
                     <input type="checkbox" id="vue" class="custom-control-input"> Vue.js
                 </label>
