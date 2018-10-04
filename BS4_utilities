@@ -136,6 +136,15 @@
       <div class="shadow-lg p-4 mb-2">Shadow large</div>
    </div>
 </div>
+<!-- Visibility -->
+<div class="row">
+    <div class="container">
+        <h2>Shadows</h2>
+        <p>Use the <code>.visible</code> or <code>.invisible</code> classes to control the visibility of elements. <strong>Note: </strong>These classes do not change the CSS display value. They only add visibility:visible or visibility:hidden to an element. </p>
+        <div class="bg-warning visible">I am visible</div>
+        <div class="bg-info invisible">I am invisible</div>
+    </div>
+</div>
 <!-- lorem ipsum  -->
 <div class="row">
     <div class="container">
