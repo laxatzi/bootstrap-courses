@@ -125,6 +125,17 @@
         </div>
     </div>
 </div>
+<!-- Shadows -->
+<div class="row">
+   <div class="container">
+      <h2>Shadows</h2>
+      <p>Use the <code>shadow</code> class to add shadows to an element.</p>
+      <div class="shadow-none p-4 mb-2 ">Shadow none</div>
+      <div class="shadow-sm p-4 mb-2">Shadow small</div>
+      <div class="shadow p-4 mb-2">Shadow default</div>
+      <div class="shadow-lg p-4 mb-2">Shadow large</div>
+   </div>
+</div>
 <!-- lorem ipsum  -->
 <div class="row">
     <div class="container">
