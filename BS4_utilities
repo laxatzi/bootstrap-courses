@@ -160,6 +160,11 @@
         <p class="text-body">This text color is default</p>
         <p class="text-light bg-secondary">This text is light grey</p>
         <p class="text-white bg-secondary">This text is white</p>
+    <!-- opacity text colors -->
+        <h3>Opacity Text Colors</h3>
+        <p>Add 50% opacity for black and white text with the <code>.text-black-50</code> or <code>.text-white-50</code> classes:</p>
+        <p class="text-black-50">Black text with 50% opacity on white background</p>
+        <p class="bg-dark text-white-50">White text with 50% opacity on black background</p>
     </div>
 </div>
 <!-- lorem ipsum  -->
