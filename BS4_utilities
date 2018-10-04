@@ -145,6 +145,23 @@
         <div class="bg-info invisible">I am invisible</div>
     </div>
 </div>
+<!-- contextual colors -->
+<div class="row">
+    <div class="container">
+        <h2>Contextual colors</h2>
+        <p class="text-muted">This text is muted</p>
+        <p class="text-primary">This text is important</p>
+        <p class="text-success">This text indicates success</p>
+        <p class="text-info">This text represents some information</p>
+        <p class="text-warning">This text represents warning</p>
+        <p class="text-danger">This text represent danger</p>
+        <p class="text-secondary">Secondary Text</p>
+        <p class="text-dark">This text is dark grey</p>
+        <p class="text-body">This text color is default</p>
+        <p class="text-light bg-secondary">This text is light grey</p>
+        <p class="text-white bg-secondary">This text is white</p>
+    </div>
+</div>
 <!-- lorem ipsum  -->
 <div class="row">
     <div class="container">
