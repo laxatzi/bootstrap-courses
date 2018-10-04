@@ -28,6 +28,12 @@
            color:  #fff;
            display: block;
         }
+        .container-box {
+          background-color: #ddd;
+          color: #fff;
+          height: 200px;
+      }
+      .last-column { height: 500px; }
  <!-- end of styles-->
  <body>
     <!-- borders -->
