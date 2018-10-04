@@ -1,1 +1,113 @@
-
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4- Utilities</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ <!-- STYLES -->
+     .row { margin-top: 2rem; }
+        .border { 
+            display: inline-block;
+            height: 3.5rem;
+            width: 3.5rem;
+            margin: 10px;
+            background-color:rgb(246, 248, 250);
+        }
+       span {
+          width: 3.5rem;
+          height: 3.5rem;
+          display: inline-block;
+          background-color: #555;
+          margin: 10px;
+       }
+       .box {
+           width: 5.5rem;
+           height: 5.5rem;
+           color:  #fff;
+           display: block;
+        }
+ <!-- end of styles-->
+ <body>
+    <!-- borders -->
+<div class="row">
+    <div class="container">
+        <h2>Borders</h2>
+        <p>Use the border classes to add or remove borders from an element:</p>
+        <span class="border border-primary"></span>
+        <span class="border border-0"></span>
+        <span class="border border-success border-top-0"></span>
+        <span class="border border-warning border-bottom-0"></span>
+        <span class="border border-info border-right-0"></span>
+        <span class="border border-danger border-left-0"></span>
+    </div>
+</div>
+ <!-- border-radious -->
+<div class="row">
+   <div class="container">
+       <h2>Border radious</h2>
+        <p>Add rounded corners to en elements with the <code>rounded</code> classes.</p>
+        <span class="rounded"></span>
+        <span class="rounded-top"></span>
+        <span class="rounded-bottom"></span>
+        <span class="rounded-right"></span>
+        <span class="rounded-left"></span>
+        <span class="rounded-circle"></span>
+        <span class="rounded-0"></span>
+   </div>
+</div>
+<!-- floats -->
+<div class="row">
+    <div class="container">
+        <h2>Float</h2>
+        <p>Float an element to the right with the <code>.float-right</code> class or to the left with the <code>.float-left</code> class. Clear floats with the <code>.clearfix</code> class.</p>
+        <div class="clearfix">
+            <span class="float-left">Float left</span>
+            <span class="float-right">Float Right</span>
+        </div>
+    </div>
+</div>
+<!-- Responsive floats -->
+<div class="row">
+   <div class="container">
+      <h2>Responsive Floats</h2>
+      <p>Float an element to the left or to the right depending on screen width, with the responsive float classes, <code>.float-*-left</code> and <code>.float-*-right</code> where * is sm, md, lg or xl.</p>
+      <div class="clearfix">
+         <div class="float-sm-right box bg-primary">Float-sm-right</div>
+      </div>
+      <div class="clearfix">
+         <div class="float-md-right box bg-warning">Float-md-right</div>
+      </div>
+      <div class="clearfix">
+         <div class="float-lg-right box bg-danger ">Float-lg-right</div>
+      </div>
+      <div class="clearfix">
+         <div class="float-xl-right box bg-info">Float-xl-right</div>
+      </div>
+      <div class="clearfix">
+         <div class="float-none box bg-success">No Float at all</div>
+      </div>
+        <div class="clearfix">
+           <div class="mx-auto box bg-dark">Center box</div>
+       </div>
+    </div>
+</div>
+<!-- Width utilities -->
+<div class="row">
+    <div class="container">
+        <h2>With Utilities</h2>
+        <p>Set the width of an element with the <code>w-*</code> classes. Where * can be 25, 50, 75 or 100</p>
+        <div class="w-25 bg-warning">Width 25%</div>
+        <div class="w-50 bg-warning">Width 50%</div>
+        <div class="w-75 bg-warning">Width 75%</div>
+        <div class="w-100 bg-warning">Width 100%</div>
+        <div class="mw-100 bg-danger">Max Width 100%</div>
+    </div>
+</div>
+ <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
