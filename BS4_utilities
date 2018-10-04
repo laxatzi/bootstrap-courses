@@ -105,6 +105,20 @@
         <div class="mw-100 bg-danger">Max Width 100%</div>
     </div>
 </div>
+<!-- height utilities -->
+<div class="row">
+    <div class="container">
+        <h2>Height Utilities</h2>
+        <p>Set the height of the element with the <code>.h-*</code> classes, where * stands for 25, 50, 75 or 100</p>
+        <div class="container-box">
+            <div class="d-inline-block bg-warning p-2 h-25">Height 25%</div>
+            <div class="d-inline-block bg-warning p-2 h-50">Height 50%</div>
+            <div class="d-inline-block bg-warning p-2 h-75">Height 75%</div>
+            <div class="d-inline-block bg-warning p-2 h-100">Height 100%</div>
+            <div class="last-column d-inline-block bg-warning p-2 mh-100">Height 100%</div>
+        </div>
+    </div>
+</div>
  <!-- script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
