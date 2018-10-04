@@ -45,6 +45,31 @@
         </div>
     </div>
 </div>
+<!-- Responsive floats -->
+<div class="row">
+   <div class="container">
+      <h2>Responsive Floats</h2>
+      <p>Float an element to the left or to the right depending on screen width, with the responsive float classes, <code>.float-*-left</code> and <code>.float-*-right</code> where * is sm, md, lg or xl.</p>
+      <div class="clearfix">
+         <div class="float-sm-right box bg-primary">Float-sm-right</div>
+      </div>
+      <div class="clearfix">
+         <div class="float-md-right box bg-warning">Float-md-right</div>
+      </div>
+      <div class="clearfix">
+         <div class="float-lg-right box bg-danger ">Float-lg-right</div>
+      </div>
+      <div class="clearfix">
+         <div class="float-xl-right box bg-info">Float-xl-right</div>
+      </div>
+      <div class="clearfix">
+         <div class="float-none box bg-success">No Float at all</div>
+      </div>
+        <div class="clearfix">
+           <div class="mx-auto box bg-dark">Center box</div>
+       </div>
+    </div>
+</div>
  <!-- script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
