@@ -20,7 +20,20 @@
         <span class="border border-danger border-left-0"></span>
     </div>
 </div>
- 
+ <!-- border-radious -->
+<div class="row">
+   <div class="container">
+       <h2>Border radious</h2>
+        <p>Add rounded corners to en elements with the <code>rounded</code> classes.</p>
+        <span class="rounded"></span>
+        <span class="rounded-top"></span>
+        <span class="rounded-bottom"></span>
+        <span class="rounded-right"></span>
+        <span class="rounded-left"></span>
+        <span class="rounded-circle"></span>
+        <span class="rounded-0"></span>
+   </div>
+</div>
  <!-- script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
