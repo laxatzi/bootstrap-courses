@@ -20,6 +20,14 @@
                <div class="media-body">
                   <h4>John Doe <small><i>Posted on October 5, 2018</i></small></h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                  <div class="media border p-3">
+                        <img src="img/customer-2.jpg" alt="picture of John Doe" class="m-3 rounded-circle">
+                        <div class="media-body">
+                          <h4>Maria Chiellini <small><i>Posted on October 7, 2018</i></small></h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          
+                        </div>
+                     </div>
                </div>
             </div>
         </div>
