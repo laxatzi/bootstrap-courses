@@ -9,7 +9,21 @@
 
 </head>
 <body>
-
+      <div class="row">
+      <div class="container">
+        <h2>Media Object</h2>
+        <p>Create a media object with the <code>.media</code> and <code>.media-body</code > classes.</p>
+        <div class="col-sm-8 mx-auto">
+           <div class="media border p-3">
+              <img src="img/customer-3.jpg" alt="picture of John Doe" class="m-3 rounded-circle">
+              <div class="media-body">
+                <h4>John Doe <small><i>Posted on October 5, 2018</i></small></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+           </div>
+        </div>
+      </div>
+   </div>
     
 <!-- scripts -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
