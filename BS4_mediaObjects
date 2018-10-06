@@ -35,6 +35,7 @@
    <div class="container mt-3">
       <h3>Right aligned Media image</h3>
       <p>To right-align the media image, add the image after the <code>.media-body</code> container:</p>
+      <div class="col-sm-8">
       <div class="media border p-3" >
           <div class="media-body">
             <h4>Ronanld Seickely <small>Posted at 6 October, 2018</small></h4>
@@ -42,7 +43,8 @@
           </div>
           <img src="img/customer-1.jpg" alt="Ronald Seickely image">
       </div> <!-- end of media-->
-    </div>  <!-- end of container -->
+   </div>   <!-- col -->
+ </div>  <!-- end of container -->
     
 <!-- scripts -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
