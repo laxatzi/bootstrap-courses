@@ -45,7 +45,44 @@
          </div> <!-- end of media-->
       </div>   <!-- col -->
    </div>  <!-- end of container -->
-    
+<!-- Align self -->
+   <div class="container mt-3">
+     <h3>Media Object</h3>
+     <p>Place the media object to the top, middle, or bottom with the flex utilities, <code>align-self-*</code> classes.</p>
+  <!-- media top -->     
+     <div class="media">
+       <img src="img/customer-1.jpg" alt="Ronald Seickely image" class="align-self-start rounded-circle">
+       <div class="media-body p-3">
+        <h4>Media Top</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+       </div>
+    </div>
+  <!-- media middle -->
+  <div class="media">
+     <img src="img/customer-1.jpg" alt="Ronald Seickely image" class="align-self-center rounded-circle">
+     <div class="media-body p-3">
+       <h4>Media Middle</h4>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    </div>
+  </div>
+  <!-- media bottom -->
+  <div class="media">
+    <img src="img/customer-1.jpg" alt="Ronald Seickely image" class="align-self-end rounded-circle">
+    <div class="media-body p-3">
+      <h4>Media Bottom</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    </div>
+  </div>
+</div>    
 <!-- scripts -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
