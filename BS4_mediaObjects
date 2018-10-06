@@ -10,29 +10,27 @@
 </head>
 <body>
 <!-- Basic Media Object -->
-   <div class="row">
-      <div class="container">
-         <h2>Media Object</h2>
-         <p>Create a media object with the <code>.media</code> and <code>.media-body</code > classes.</p>
-         <div class="col-sm-8 mx-auto">
-            <div class="media border p-3">
-               <img src="img/customer-3.jpg" alt="picture of John Doe" class="m-3 rounded-circle">
-               <div class="media-body">
-                  <h4>John Doe <small><i>Posted on October 5, 2018</i></small></h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <!-- Nested media object -->
-                  <div class="media border p-3">
-                     <img src="img/customer-2.jpg" alt="picture of John Doe" class="m-3 rounded-circle">
-                     <div class="media-body">
-                        <h4>Maria Chiellini <small><i>Posted on October 7, 2018</i></small></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                     </div>
-                  </div> <!-- end of Nested media -->
-               </div> <!-- end of Media Body-->
-            </div> <!-- end of Media -->
-        </div>
-      </div>
-   </div>
+   <div class="container mt-3">
+      <h2>Media Object</h2>
+      <p>Create a media object with the <code>.media</code> and <code>.media-body</code> classes.</p>
+      <div class="col-sm-8 mx-auto">
+        <div class="media border p-3">
+           <img src="img/customer-3.jpg" alt="picture of John Doe" class="m-3 rounded-circle">
+           <div class="media-body">
+              <h4>John Doe <small><i>Posted on October 5, 2018</i></small></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <!--Nested media-->               
+              <div class="media border p-3">
+                  <img src="img/customer-2.jpg" alt="picture of John Doe" class="m-3 rounded-circle">
+                  <div class="media-body">
+                     <h4>Maria Chiellini <small><i>Posted on October 7, 2018</i></small></h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+              </div> <!-- end Nested Media-->
+           </div>    <!-- end Media body-->
+        </div><!-- end of Media -->
+      </div><!-- end of col -->
+   </div><!-- end of Container -->
     
 <!-- scripts -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
