@@ -28,8 +28,8 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                      </div>
                   </div> <!-- end of Nested media -->
-               </div> <!-- end of Media-->
-            </div>
+               </div> <!-- end of Media Body-->
+            </div> <!-- end of Media -->
         </div>
       </div>
    </div>
