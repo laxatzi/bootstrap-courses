@@ -10,7 +10,10 @@
 <body>
    <div class="container-fluid">
         <h2>Example of a Carousel in Bootstrap 4</h2>
-      
+        <div id="myId" class="carousel slide" data-ride="carousel">
+   
+    
+        </div>
    </div>
 <!-- Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
