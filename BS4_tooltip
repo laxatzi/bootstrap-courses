@@ -12,7 +12,14 @@
      <div class="container mt-3">
        <h2>Tooltip Examples</h2>
        <p>The <code>data-placement</code> attribute specifies the tooltip position</p>
-       
+       <div class="container mt-3">
+       <h2>Tooltip Examples</h2>
+       <p>The <code>data-placement</code> attribute specifies the tooltip position</p>
+       <a href="#" data-toggle="tooltip" data-placement="top" title="i am on top">Top</a>
+       <a href="#" data-toggle="tooltip" data-placement="bottom" title="i am on top">Bottom</a>
+       <a href="#" data-toggle="tooltip" data-placement="right" title="i am on top">Right</a>
+       <a href="#" data-toggle="tooltip" data-placement="left" title="i am on top">left</a>
+    </div> 
     </div>
 <!-- SCRIPT -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
