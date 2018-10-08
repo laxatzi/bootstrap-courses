@@ -17,10 +17,20 @@
         <div class="modal" id="myId">
             <div class="modal-dialog">
                 <div class="modal-content">
-
-        
-      
-                </div>
+         <!-- Modal header -->
+                   <div class="modal-header">
+                       <h4>Modal Heading</h4>
+                       <button class="close" type="button" data-dismiss="modal">&times;</button>
+                   </div>
+        <!-- Modal body -->
+                   <div class="modal-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                   </div>
+        <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
+                    </div>
+               </div>
             </div>
         </div>
     </div>
