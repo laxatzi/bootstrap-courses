@@ -1,1 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4- Tooltip</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
+</head>
+<body>
+     <div class="container mt-3">
+       <h2>Tooltip Examples</h2>
+       <p>The <code>data-placement</code> attribute specifies the tooltip position</p>
+       <div class="container mt-3">
+       <h2>Tooltip Examples</h2>
+       <p>The <code>data-placement</code> attribute specifies the tooltip position</p>
+       <a href="#" data-toggle="tooltip" data-placement="top" title="i am on top">Top</a>
+       <a href="#" data-toggle="tooltip" data-placement="bottom" title="i am on top">Bottom</a>
+       <a href="#" data-toggle="tooltip" data-placement="right" title="i am on top">Right</a>
+       <a href="#" data-toggle="tooltip" data-placement="left" title="i am on top">left</a>
+    </div> 
+    </div>
+<!-- SCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    <script>
+</body>
+</html>
