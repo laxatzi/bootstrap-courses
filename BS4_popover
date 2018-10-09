@@ -1,1 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4- Popover</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
+</head>
+<body>
+    <div class="container mt-3">
+        <h2>Popover example</h2>
+        <a href="#" data-toggle="popover" data-placement="top" data-triger="focus" title="Header" data-content="This is some content">Top</a>
+        <a href="#" data-toggle="popover" data-placement="bottom" data-triger="focus" title="Header" data-content="Some txt">Bottom</a>
+        <a href="#" data-toggle="popover" data-placement="left" data-triger="focus" title="Header" data-content="Some text">Left</a>
+        <a href="#" data-toggle="popover" data-placement="right" data-triger="focus" title="Header" data-content="Some text">Right</a>
+    </div>
+    </div>
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script>
+         $(document).ready(function() {
+             $('[data-toggle="popover"]').popover();
+         });
+    </script>
+</body>
+</html>
