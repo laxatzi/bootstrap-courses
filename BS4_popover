@@ -11,7 +11,11 @@
 <body>
     <div class="container mt-3">
         <h2>Popover example</h2>
-        
+        <a href="#" data-toggle="popover" data-placement="top" title="Header" data-content="This is some content">Top</a>
+        <a href="#" data-toggle="popover" data-placement="bottom" title="Header" data-content="Some txt">Bottom</a>
+        <a href="#" data-toggle="popover" data-placement="left" title="Header" data-content="Some text">Left</a>
+        <a href="#" data-toggle="popover" data-placement="right" title="Header" data-content="Some text">Right</a>
+    </div>
     </div>
 
     <!-- script -->
