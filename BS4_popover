@@ -16,7 +16,7 @@
         <a href="#" data-toggle="popover" data-placement="left" data-triger="focus" title="Header" data-content="Some text">Left</a>
         <a href="#" data-toggle="popover" data-placement="right" data-triger="focus" title="Header" data-content="Some text">Right</a>
     </div>
-    </div>
+    
 
     <!-- script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
