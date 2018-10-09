@@ -15,6 +15,9 @@
         <a href="#" data-toggle="popover" data-placement="bottom" data-triger="focus" title="Header" data-content="Some txt">Bottom</a>
         <a href="#" data-toggle="popover" data-placement="left" data-triger="focus" title="Header" data-content="Some text">Left</a>
         <a href="#" data-toggle="popover" data-placement="right" data-triger="focus" title="Header" data-content="Some text">Right</a>
+        <h3 class="mt-3">Popover on hover</h3>
+        <p>If you want the popover to be displayed when you move the mouse pointer over the element, use the <code>data-trigger</code> attribute with the value of <strong>"hover".</strong></p>
+        <a href="#" data-placement="top" data-toggle="popover" data-trigger="hover" title="Header" data-content="some content">Hover me!</a>
     </div>
     
 
