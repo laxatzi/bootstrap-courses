@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
 </head>
-<body data-spy="scroll" data-offset="50">
+<body data-spy="scroll" data-offset="50" data-target=".navbar">
 <!-- Navbar -->
    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"> 
       <ul class="navbar-nav">
