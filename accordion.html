@@ -9,7 +9,33 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 <body>
-
+     <div class="container">
+        <div class="row">
+           <div class="col">
+              <div class="accordion" id="accord-parent">
+                 <div class="card">
+                    <div class="card-header">
+                       <h5 class="mb-0">
+                          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-content">Question 1</button>
+                      </h5>
+                    </div>
+                    <div id="collapse-content"  class="collapse show" data-parent="#accord-parent">
+                       <div class="card-body">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae libero qui aut obcaecati iusto itaque quos neque. Autem, ex quibusdam.
+                       </div>
+                    </div>
+                 </div>
+                 <div class="card">
+                    <div class="card-header">
+                       <h5 class="mb-0">
+                          <button class="btn-link" data-toggle="collapse" data-target="#collapse-content2" data-parent="#accord-parent">Question 2</button>
+                       </h5>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
   
 <!-- Scripts -->
 
