@@ -1,0 +1,30 @@
+body {
+  padding-top: 100px;
+}
+
+.card-body img {
+  margin-top: -40%;
+}
+.card-subtitle {
+  color: #6C7584;
+}
+
+/*Hovering */
+.card:hover,
+.card:focus {
+  background-color:#3292A6;
+  color: #fff;
+}
+
+.card:hover .fab,
+.card:focus .fab  {
+  color: #fff;
+}
+.card:hover .card-subtitle,
+.card:focus .card-subtitle {
+  color: #FFAD66;
+  
+  
+}
+
+
