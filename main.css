@@ -23,8 +23,10 @@ body {
 .card:hover .card-subtitle,
 .card:focus .card-subtitle {
   color: #FFAD66;
-  
-  
+}
+
+.hidden {
+  display: hidden;
 }
 
 
