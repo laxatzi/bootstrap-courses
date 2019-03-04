@@ -1,6 +1,4 @@
-body {
-  padding-top: 100px;
-}
+
 
 .card-subtitle {
   color: #6C7584;
@@ -22,3 +20,14 @@ body {
   color: #FFAD66;
 }
 
+/* Toast */
+.toast-wrapper {
+  position: relative;
+  min-height: 200px;
+}
+
+    .toast {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
